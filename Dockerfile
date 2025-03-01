@@ -7,7 +7,9 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build --prod
+ARG ENVIRONMENT=development
+
+RUN if [ "$ENVIRONMENT" = "production" ]; then npm run build -- --configuration=production; else npm run build; fi
 
 FROM nginx:alpine
 COPY --from=build /app/dist/zine-eddinetoubal /usr/share/nginx/html
