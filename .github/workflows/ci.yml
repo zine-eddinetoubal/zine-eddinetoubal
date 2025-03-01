@@ -31,4 +31,11 @@ jobs:
 
       # build du projet
       - name: Build the project
-        run: npm run build
+        run: |
+          if [ $GITHUB_REF = "refs/heads/main" ]; then
+            echo "Building for production...";
+            npm run build -- --configuration=production;  # Build en production
+          else
+            echo "Building for development...";
+            npm run build;  # Build en développement
+          fi
