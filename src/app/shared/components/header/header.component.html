@@ -1,1 +1,26 @@
-<p>header works!</p>
+<nav class="navbar">
+  <div class="container-fluid">
+    <button class="navbar-brand" routerLink="/">
+      <div class="avatar-img"></div>
+    </button>
+
+    <ul class="navbar-nav"  [ngClass]="{'show': menuOpen}">
+      <li class="nav-item">
+        <button class="nav-link" routerLink="/">Profil</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" routerLink="/">Compétences</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" routerLink="/">Portfolio</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" routerLink="/">Contact</button>
+      </li>
+    </ul>
+  </div>
+
+  <button class="navbar-toggler" type="button" (click)="toggleMenu()">
+    <mat-icon class="navbar-toggler-icon">menu</mat-icon>
+  </button>
+</nav>
