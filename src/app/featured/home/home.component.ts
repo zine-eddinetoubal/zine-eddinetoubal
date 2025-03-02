@@ -23,12 +23,23 @@ export class HomeComponent implements OnInit {
     this.scrollService.scrollToAbout$.subscribe(() => {
       this.scrollToAbout();
     });
+
+    this.scrollService.scrollToSkills$.subscribe(() => {
+      this.scrollToSkills();
+    });
   }
 
   scrollToAbout() {
     const aboutSection = document.getElementById('about-me');
     if (aboutSection) {
       aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  scrollToSkills() {
+    const skillsSection = document.getElementById('competences');
+    if (skillsSection) {
+      skillsSection.scrollIntoView({ behavior: 'smooth' });
     }
   }
 }

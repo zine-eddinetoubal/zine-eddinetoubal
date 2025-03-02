@@ -27,4 +27,8 @@ export class HeaderComponent {
   scrollToAbout() {
     this.scrollService.triggerScrollToAbout();
   }
+
+  scrollToSkills() {
+    this.scrollService.triggerScrollToSkills();
+  }
 }
