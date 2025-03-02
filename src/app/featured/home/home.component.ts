@@ -2,10 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { ProfilComponent } from "../profil/profil.component";
 import { ScrollService } from '../../core/service/scroll.service';
+import { CurrentJobComponent } from "../currentjob/currentjob.component";
 
 @Component({
   selector: 'app-home',
-  imports: [MatButtonModule, ProfilComponent],
+  imports: [
+    MatButtonModule,
+    ProfilComponent,
+    CurrentJobComponent
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
