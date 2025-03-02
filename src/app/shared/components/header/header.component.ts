@@ -3,6 +3,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { CommonModule } from '@angular/common';
+import { ScrollService } from '../../../core/service/scroll.service';
 @Component({
   selector: 'app-header',
   imports: [
@@ -17,7 +18,13 @@ import { CommonModule } from '@angular/common';
 export class HeaderComponent {
   menuOpen = false;
 
+  constructor(private scrollService: ScrollService) {}
+  
   toggleMenu() {
     this.menuOpen = !this.menuOpen;
+  }
+
+  scrollToAbout() {
+    this.scrollService.triggerScrollToAbout();
   }
 }

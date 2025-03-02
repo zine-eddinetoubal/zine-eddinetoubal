@@ -6,7 +6,7 @@
 
     <ul class="navbar-nav"  [ngClass]="{'show': menuOpen}">
       <li class="nav-item">
-        <button class="nav-link" routerLink="/">Profil</button>
+        <button class="nav-link" (click)="scrollToAbout()">Profil</button>
       </li>
       <li class="nav-item">
         <button class="nav-link" routerLink="/">Compétences</button>
