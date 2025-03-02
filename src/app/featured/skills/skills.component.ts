@@ -3,6 +3,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Skills } from '../../core/models/skills.model';
+import { Config } from '../../core/config/config';
 
 @Component({
   selector: 'app-skills',
@@ -12,7 +13,6 @@ import { Skills } from '../../core/models/skills.model';
 })
 export class SkillsComponent {
 
-  private jsonUrl = 'assets/data/data.json';
   competences!: Skills; 
 
   constructor(private http: HttpClient) { 
@@ -22,7 +22,8 @@ export class SkillsComponent {
   }
 
   getCompetences(): Observable<{ competences: Skills }> {
-    return this.http.get<{ competences: Skills }>(this.jsonUrl); 
+    const jsonUrl = Config.jsonUrl;
+    return this.http.get<{ competences: Skills }>(jsonUrl); 
   }
 
   objectKeys(obj: Record<string, number>): string[] {

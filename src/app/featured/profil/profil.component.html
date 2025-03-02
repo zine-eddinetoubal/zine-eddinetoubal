@@ -1,18 +1,11 @@
-<section class="about-me" id="about-me">
-    <div class="about-content">
-      <h2>À Propos de Moi</h2>
-      <p>
-        Je suis Zine-Eddine TOUBAL, développeur Full-Stack passionné par la création
-        d'applications modernes et performantes. Issu d'un parcours technique diversifié, 
-        je mets à profit ma curiosité et mon esprit analytique pour concevoir des applications 
-        performantes et intuitives.
-      </p>
-      <p>
-        Toujours en quête d'apprentissage, j'aime relever des défis,
-        collaborer sur des projets innovants et partager mes connaissances.
-      </p>
-    </div>
-  </section>
-
-
-
+<section class="about-me" id="about-me" *ngIf="profil">
+  <div class="about-content">
+    <h2>À Propos de Moi</h2>
+    <p>
+      {{ profil.aboutMe }}
+    </p>
+    <p>
+      {{ profil.aboutMeShort }}
+    </p>
+  </div>
+</section>
