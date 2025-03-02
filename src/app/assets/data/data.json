@@ -1,0 +1,20 @@
+{
+    "competences": {
+        "frontend": {
+            "Angular": 80,
+            "React": 60
+        },
+        "backend": {
+            "Java / J2ee / Spring": 80,
+            "Php / Symfony": 65,
+            "C# (ASP.NET Core)": 60
+        },
+        "tools": {
+            "MySql/ Sql / PostgreSQL": 70,
+            "Git / Github / Gitlab": 80,
+            "Jira / Trello / Azure DevOps": 70,
+            "Docker / Linux": 60,
+            "Scrum": 75
+        }
+    }
+}

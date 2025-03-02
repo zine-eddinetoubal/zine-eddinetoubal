@@ -1,0 +1,57 @@
+<section class="competences" id="competences">
+    <div class="competences-container">
+      <h2>Compétences</h2>
+      <div class="competences-row">
+        
+        <!-- Frontend -->
+        <div class="competence-column">
+          <h3>Frontend</h3>
+          <div *ngIf="competences?.frontend">
+            <div *ngFor="let key of objectKeys(competences!.frontend!)">
+              <div class="competence-item">
+                <span class="progess-key">{{ key }}</span>
+                <div class="progress-bar">
+                  <div class="progress" [style.width.%]="competences!.frontend[key]"></div>
+                </div>
+                <span class="progress-pourcentage">{{ competences!.frontend[key] }}%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Backend -->
+        <div class="competence-column">
+          <h3>Backend</h3>
+          <div *ngIf="competences?.backend">
+            <div *ngFor="let key of objectKeys(competences!.backend)">
+              <div class="competence-item">
+                <span class="progess-key">{{ key }}</span>
+                <div class="progress-bar">
+                  <div class="progress" [style.width.%]="competences!.backend[key]"></div>
+                </div>
+                <span class="progress-pourcentage">{{ competences!.backend[key] }}%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Tools -->
+        <div class="competence-column">
+          <h3>Outils & Méthode agile</h3>
+          <div *ngIf="competences?.tools">
+            <div *ngFor="let key of objectKeys(competences!.tools)">
+              <div class="competence-item">
+                <span class="progess-key">{{ key }}</span>
+                <div class="progress-bar">
+                  <div class="progress" [style.width.%]="competences!.tools[key]"></div>
+                </div>
+                <span class="progress-pourcentage">{{ competences!.tools[key] }}%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
