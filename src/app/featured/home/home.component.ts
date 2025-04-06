@@ -8,6 +8,7 @@ import { Btn } from '../../core/models/btn.model';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
 import { Config } from '../../core/config/config';
+import { ExperiencesComponent } from "../experiences/experiences.component";
 
 @Component({
   selector: 'app-home',
@@ -16,7 +17,9 @@ import { Config } from '../../core/config/config';
     ProfilComponent,
     CurrentJobComponent,
     SkillsComponent,
-    HttpClientModule
+    HttpClientModule,
+    ExperiencesComponent,
+    ExperiencesComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
