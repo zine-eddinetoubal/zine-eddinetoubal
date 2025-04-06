@@ -9,6 +9,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
 import { Config } from '../../core/config/config';
 import { ExperiencesComponent } from "../experiences/experiences.component";
+import { CvComponent } from '../cv/cv.component';
 
 @Component({
   selector: 'app-home',
@@ -19,7 +20,8 @@ import { ExperiencesComponent } from "../experiences/experiences.component";
     SkillsComponent,
     HttpClientModule,
     ExperiencesComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
+    CvComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
