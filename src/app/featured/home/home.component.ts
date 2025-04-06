@@ -10,6 +10,7 @@ import { Observable } from 'rxjs/internal/Observable';
 import { Config } from '../../core/config/config';
 import { ExperiencesComponent } from "../experiences/experiences.component";
 import { CvComponent } from '../cv/cv.component';
+import { ContactComponent } from "../contact/contact.component";
 
 @Component({
   selector: 'app-home',
@@ -21,7 +22,8 @@ import { CvComponent } from '../cv/cv.component';
     HttpClientModule,
     ExperiencesComponent,
     ExperiencesComponent,
-    CvComponent
+    CvComponent,
+    ContactComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
