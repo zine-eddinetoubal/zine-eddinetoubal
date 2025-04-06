@@ -1,5 +1,6 @@
 {
-    "actuellement": {
+    "currentJob": {
+        "titreSection": "Actuellement",
         "titre": "Ingénieur études et développement",
         "chez": "chez",
         "entreprise": "Artelia Digital Solutions",

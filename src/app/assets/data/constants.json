@@ -3,10 +3,10 @@
         "profil": "Profil",
         "competences": "Compétences",
         "portfolio": "Portfolio",
-        "contact": "Contact",
-        "btn": {
-            "connaissance": "Faisons connaissance"
-        }
+        "contact": "Contact"
+    },
+    "btn": {
+        "connaissance": "Faisons connaissance"
     },
     "profil": {
         "titre": "À Propos de Moi",

@@ -12,16 +12,16 @@ import { CommonModule } from '@angular/common';
   styleUrl: './profil.component.scss'
 })
 export class ProfilComponent {
-  profil!: Profil; 
+  profil!: Profil;
 
-  constructor(private http: HttpClient) { 
+  constructor(private http: HttpClient) {
     this.getProfil().subscribe(data => {
-      this.profil = data.profil; 
+      this.profil = data.profil;
     });
   }
 
   getProfil(): Observable<{ profil: Profil }> {
-    const jsonUrl = Config.jsonUrl;
-    return this.http.get<{ profil: Profil }>(jsonUrl); 
+    const dataUrl = Config.constantsUrl;
+    return this.http.get<{ profil: Profil }>(dataUrl);
   }
 }

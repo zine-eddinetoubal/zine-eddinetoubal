@@ -4,6 +4,10 @@ import { ProfilComponent } from "../profil/profil.component";
 import { ScrollService } from '../../core/service/scroll.service';
 import { CurrentJobComponent } from "../currentjob/currentjob.component";
 import { SkillsComponent } from "../skills/skills.component";
+import { Btn } from '../../core/models/btn.model';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { Observable } from 'rxjs/internal/Observable';
+import { Config } from '../../core/config/config';
 
 @Component({
   selector: 'app-home',
@@ -11,13 +15,20 @@ import { SkillsComponent } from "../skills/skills.component";
     MatButtonModule,
     ProfilComponent,
     CurrentJobComponent,
-    SkillsComponent
-],
+    SkillsComponent,
+    HttpClientModule
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
 export class HomeComponent implements OnInit {
-  constructor(private scrollService: ScrollService) {}
+  btn!: Btn;
+
+  constructor(private scrollService: ScrollService, private http: HttpClient) {
+    this.getBtn().subscribe(data => {
+      this.btn = data.btn;
+    });
+  }
 
   ngOnInit() {
     this.scrollService.scrollToAbout$.subscribe(() => {
@@ -41,5 +52,10 @@ export class HomeComponent implements OnInit {
     if (skillsSection) {
       skillsSection.scrollIntoView({ behavior: 'smooth' });
     }
+  }
+
+  getBtn(): Observable<{ btn: Btn }> {
+    const dataUrl = Config.constantsUrl;
+    return this.http.get<{ btn: Btn }>(dataUrl);
   }
 }

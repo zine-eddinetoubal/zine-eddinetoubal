@@ -13,21 +13,21 @@ import { Config } from '../../core/config/config';
 })
 export class SkillsComponent {
 
-  competences!: Skills; 
+  competences!: Skills;
 
-  constructor(private http: HttpClient) { 
+  constructor(private http: HttpClient) {
     this.getCompetences().subscribe(data => {
-      this.competences = data.competences; 
+      this.competences = data.competences;
     });
   }
 
   getCompetences(): Observable<{ competences: Skills }> {
-    const jsonUrl = Config.jsonUrl;
-    return this.http.get<{ competences: Skills }>(jsonUrl); 
+    const dataUrl = Config.dataUrl;
+    return this.http.get<{ competences: Skills }>(dataUrl);
   }
 
   objectKeys(obj: Record<string, number>): string[] {
     return obj ? Object.keys(obj) : [];
   }
-  
+
 }

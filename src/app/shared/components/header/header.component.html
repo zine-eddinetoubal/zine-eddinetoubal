@@ -1,21 +1,21 @@
 <nav class="navbar">
   <div class="container-fluid">
     <button class="navbar-brand" routerLink="/">
-      <div class="avatar-img"></div>
+      <div class="avatar-img"></div>.
     </button>
 
-    <ul class="navbar-nav"  [ngClass]="{'show': menuOpen}">
+    <ul class="navbar-nav" [ngClass]="{'show': menuOpen}">
       <li class="nav-item">
-        <button class="nav-link" (click)="scrollToAbout()">Profil</button>
+        <button class="nav-link" (click)="scrollToAbout()">{{ header.profil }}</button>
       </li>
       <li class="nav-item">
-        <button class="nav-link" (click)="scrollToSkills()">Compétences</button>
+        <button class="nav-link" (click)="scrollToSkills()">{{ header.competences }}</button>
       </li>
       <li class="nav-item">
-        <button class="nav-link" routerLink="/">Portfolio</button>
+        <button class="nav-link" routerLink="/">{{ header.portfolio }}</button>
       </li>
       <li class="nav-item">
-        <button class="nav-link" routerLink="/">Contact</button>
+        <button class="nav-link" routerLink="/">{{ header.contact }}</button>
       </li>
     </ul>
   </div>
