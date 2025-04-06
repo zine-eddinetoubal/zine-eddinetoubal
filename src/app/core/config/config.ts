@@ -1,3 +1,4 @@
 export const Config = {
-    jsonUrl: 'assets/data/data.json'
-  };
+  dataUrl: 'assets/data/data.json',
+  constantsUrl: 'assets/data/constants.json'
+};
