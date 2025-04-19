@@ -8,6 +8,7 @@ import { Header } from '../../../core/models/header.model';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
 import { Config } from '../../../core/config/config';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-header',
   imports: [
@@ -23,7 +24,7 @@ export class HeaderComponent {
   menuOpen = false;
   header!: Header;
 
-  constructor(private scrollService: ScrollService, private http: HttpClient) {
+  constructor(private scrollService: ScrollService, private http: HttpClient, private router: Router) {
     this.getHeader().subscribe(data => {
       this.header = data.header;
     });
@@ -35,6 +36,10 @@ export class HeaderComponent {
 
   scrollToAbout() {
     this.scrollService.triggerScrollToAbout();
+  }
+
+  scrollToHome() {
+    this.router.navigate(['/']);
   }
 
   scrollToSkills() {
