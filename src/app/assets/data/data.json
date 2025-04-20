@@ -7,37 +7,73 @@
         "siteEntreprise": "https://www.arteliadigitalsolutions.com/"
     },
     "competences": {
-        "titre": "Compétences",
         "frontend": {
-            "titre": "Frontend",
             "Angular": 80,
             "React": 60
         },
         "backend": {
-            "titre": "Backend",
-            "Java / J2ee / Spring": 80,
+            "Java / J2ee / Spring": 70,
             "Php / Symfony": 65,
             "C# (ASP.NET Core)": 60
         },
         "tools": {
-            "titre": "Outils & Méthode agile",
             "MySql/ Sql / PostgreSQL": 70,
-            "Git / Github / Gitlab / Azure DevOps": 80,
+            "Git / Github / Gitlab / Azure DevOps": 70,
             "Jira / Trello / Youtrack": 70,
-            "Docker / Linux": 60,
-            "Scrum": 75
+            "Docker / Linux": 50,
+            "Scrum": 70
         }
     },
     "experiences": [
         {
-            "titre": "Formateur",
-            "entreprise": "Institut français d'Algérie à Oran",
-            "type": "",
-            "duree": "déc 2021 - févr 2022",
-            "lieu": "Oran, Algérie",
+            "titre": "Ingénieur d’études et de développement",
+            "entreprise": "Artelia Digital Solutions",
+            "type": "Contrat en alternance",
+            "duree": "sept 2024 - aujourd’hui",
+            "lieu": "Le havre, France",
+            "place": "Hybride",
+            "description": "- Analyse des besoins clients et élaboration de solutions adaptées.\n\n- Conception et architecture des systèmes logiciels.\n\n- Développement et intégration de solutions logicielles.\n\n- Technologies (.NET, ReactJS, PHP, Azure DevOps, JIRA, CI/CD)",
+            "competences": "Agile Development · Méthodologies agiles · Interfaces de programmation d'applications (API) · Architecture MVC · Esprit d’équipe · .NET framework · ASP.NET · React.js · Cypress · JIRA · Gitlab · Azure DevOps · PHP · Applications PHP"
+        },
+        {
+            "titre": "Développeur concepteur",
+            "entreprise": "EDF Renouvelables",
+            "type": "Stage",
+            "duree": "mai 2024 - août 2024",
+            "lieu": "Nanterre, Île-de-France, France",
             "place": "En présentiel",
-            "description": "Formateur en développement d'applications mobiles sur Android avec Flutter et Firebase",
-            "competences": ""
+            "description": "- Recueil et analyse des besoins métier pour EDF Renouvelables.\n\n- Développement de deux applications sur la Power Platform.\n\n- Participation aux cérémonies Scrum et collaboration avec l'équipe de développement",
+            "competences": "Communication · Esprit d’équipe · Méthodologie agile · Microsoft Power Platform · Conception d’applications mobiles · Conception d’interfaces mobiles · SharePoint · PowerShell"
+        },
+        {
+            "titre": "Développeur web",
+            "entreprise": "LPO France",
+            "type": "",
+            "duree": "oct 2023 · mai 2024",
+            "lieu": "Rouen, France",
+            "place": "Hybride",
+            "description": "- Conception d’une application en groupe de 7 personnes\n\n- Application web utilisant les technologies( Symfony, React, la méthodologie agile SCRUM, JIRA et Gitlab.)",
+            "competences": "Conception de bases de données · Développement agile · Méthodologie SCRUM · PHP · Tests logiciels · Doctrine (PHP) · Postman API · React.js · Conception web · Méthodes agiles · Tests fonctionnels · Symfony · Tests unitaires · Gitlab · JIRA"
+        },
+        {
+            "titre": "Développeur web",
+            "entreprise": "HACHITECH",
+            "type": "CDD",
+            "duree": "août 2022 - août 2023",
+            "lieu": "Paris, France",
+            "place": "À distance",
+            "description": "- Maintenance et développement du système web\n\n -Technologies utilisées :(Angular, TypeScript, Git, Firebase, Trello, Bitbucket.)",
+            "competences": "Web Development · Trello · Bitbucket · Git · Scrum · Teamwork · Firebase · Angular · Ionic Framework"
+        },
+        {
+            "titre": "Freelance",
+            "entreprise": "",
+            "type": "Freelance",
+            "duree": "sept 2021 - juil 2023",
+            "lieu": "Oran, Algérie",
+            "place": "À distance",
+            "description": "- Conception et développement d'applications Android et web \n\n -Utilisation des technologies (Flutter, Firebase, Git, PHP, JS, JAVA, HTML, CSS et MySQL.",
+            "competences": "Flutter · PHP · Mobile Application Development · Android Development · Firebase · Angular · MySQL · Application Programming Interfaces (API) · Ionic Framework · Git · GitHub"
         },
         {
             "titre": "Volontaire support IT & réseau · Jeux Méditerranéens 2022",
@@ -50,54 +86,14 @@
             "competences": "Travail d'équipe · Réseaux informatiques · Réseau · Matériel informatique · Serveurs"
         },
         {
-            "titre": "Freelance",
-            "entreprise": "",
-            "type": "Freelance",
-            "duree": "sept 2021 - juil 2023",
-            "lieu": "Oran, Algérie",
-            "place": "À distance",
-            "description": "- Concevoir et développer des applications Android.\n\n- Entretenir et mettre à jour les applications en fonction des évolutions des appareils et des langages.",
-            "competences": "Flutter · PHP · Mobile Application Development · Android Development · Firebase · Angular · MySQL · Application Programming Interfaces (API) · Ionic Framework · Git · GitHub"
-        },
-        {
-            "titre": "Développeur web",
-            "entreprise": "HACHITECH",
-            "type": "CDD",
-            "duree": "août 2022 - août 2023",
-            "lieu": "Paris, France",
-            "place": "À distance",
-            "description": "- Développement de nouvelles fonctionnalités pour une plateforme médicale dédiée.\n\n- Correction des bugs et amélioration continue de l'application.\n\n- Maintenance des dépendances et veille technologique pour assurer la compatibilité et les performances.\n\n- Envoi de mails et de SMS dans le cadre des campagnes, forums et salons internationaux liés au secteur de la santé.",
-            "competences": "Web Development · Trello · Bitbucket · Git · Scrum · Teamwork · Firebase · Angular · Ionic Framework"
-        },
-        {
-            "titre": "Développeur web",
-            "entreprise": "LPO France",
+            "titre": "Formateur",
+            "entreprise": "Institut français d'Algérie à Oran",
             "type": "",
-            "duree": "oct 2023 · mai 2024",
-            "lieu": "Rouen, France",
-            "place": "Hybride",
-            "description": "Dans le cadre de ma formation universitaire en Master 1 à l'Université de Rouen, nous avons entrepris une étude approfondie pour saisir le contexte et les attentes du projet annuel. Notre objectif principal est de développer une plateforme web. Durant cette première étape, nous avons réalisé divers documents indispensables tels que le cahier des charges technique (STB), le document architecture technique (DAT), etc.\n\nAu sein de notre équipe de sept personnes, nous avons travaillé de manière dynamique pour réaliser un projet ambitieux. Notre approche, qui s'inscrit dans la méthodologie agile SCRUM, a été mise en place afin d'organiser notre travail en cycles de développement successifs. La deuxième phase a été consacrée à la mise en œuvre concrète de cette plateforme web innovante, qui débutera en janvier 2024 et prendra fin en mai 2024.",
-            "competences": "Conception de bases de données · Développement agile · Méthodologie SCRUM · PHP · Tests logiciels · Doctrine (PHP) · Postman API · React.js · Conception web · Méthodes agiles · Tests fonctionnels · Symfony · Tests unitaires · Gitlab · JIRA"
-        },
-        {
-            "titre": "Développeur concepteur",
-            "entreprise": "EDF Renouvelables",
-            "type": "Stage",
-            "duree": "mai 2024 - août 2024",
-            "lieu": "Nanterre, Île-de-France, France",
+            "duree": "déc 2021 - févr 2022",
+            "lieu": "Oran, Algérie",
             "place": "En présentiel",
-            "description": "- Participation au développement et à la maintenance d'applications sur la plateforme Microsoft Power Platform.\n\n- Conception de solutions personnalisées répondant aux besoins métiers en collaboration avec les parties prenantes.\n\n- Mise en place et optimisation de flux de travail automatisés via Power Automate pour améliorer l'efficacité des processus internes.",
-            "competences": "Communication · Esprit d’équipe · Méthodologie agile · Microsoft Power Platform · Conception d’applications mobiles · Conception d’interfaces mobiles · SharePoint · PowerShell"
-        },
-        {
-            "titre": "Ingénieur d’études et de développement",
-            "entreprise": "Artelia Digital Solutions",
-            "type": "Contrat en alternance",
-            "duree": "sept 2024 - aujourd’hui",
-            "lieu": "Le havre, France",
-            "place": "Hybride",
-            "description": "- Analyse des besoins métiers et rédaction des spécifications techniques.\n\n- Conception et développement d'applications web.\n\n- Mise en œuvre et maintenance des interfaces API.\n\n- Participation aux tests unitaires et fonctionnels.",
-            "competences": "Agile Development · Méthodologies agiles · Interfaces de programmation d'applications (API) · Architecture MVC · Esprit d’équipe · .NET framework · ASP.NET · React.js · Cypress · JIRA · Gitlab · Azure DevOps · PHP · Applications PHP"
+            "description": "- Formateur en développement d'applications mobiles sur Android avec Flutter et Firebase",
+            "competences": ""
         }
     ],
     "formation": [

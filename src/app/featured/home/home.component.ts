@@ -45,6 +45,14 @@ export class HomeComponent implements OnInit {
     this.scrollService.scrollToSkills$.subscribe(() => {
       this.scrollToSkills();
     });
+
+    this.scrollService.scrollToExperiences$.subscribe(() => {
+      this.scrollToExperiences();
+    });
+
+    this.scrollService.scrollToContact$.subscribe(() => {
+      this.scrollToContact();
+    });
   }
 
   scrollToAbout() {
@@ -56,6 +64,20 @@ export class HomeComponent implements OnInit {
 
   scrollToSkills() {
     const skillsSection = document.getElementById('competences');
+    if (skillsSection) {
+      skillsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  scrollToContact() {
+    const skillsSection = document.getElementById('contact');
+    if (skillsSection) {
+      skillsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  scrollToExperiences() {
+    const skillsSection = document.getElementById('experiences');
     if (skillsSection) {
       skillsSection.scrollIntoView({ behavior: 'smooth' });
     }

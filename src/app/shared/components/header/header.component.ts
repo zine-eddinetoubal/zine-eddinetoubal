@@ -46,6 +46,14 @@ export class HeaderComponent {
     this.scrollService.triggerScrollToSkills();
   }
 
+  scrollToContact() {
+    this.scrollService.triggerScrollToContact();
+  }
+
+  scrollToExperiences() {
+    this.scrollService.triggerScrollToExperiences();
+  }
+
   getHeader(): Observable<{ header: Header }> {
     const dataUrl = Config.constantsUrl;
     return this.http.get<{ header: Header }>(dataUrl);
