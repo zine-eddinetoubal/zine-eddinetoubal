@@ -25,4 +25,8 @@ export class ExperiencesComponent {
     const dataUrl = Config.dataUrl;
     return this.http.get<Experiences>(dataUrl);
   }
+
+  transform(value: string): string {
+    return value ? value.replace(/\n/g, '<br>') : '';
+  }
 }
