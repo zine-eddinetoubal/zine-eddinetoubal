@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: CI-CD Pipeline
 
 on: 
   push:
@@ -11,17 +11,17 @@ jobs:
   lint_and_test:
     runs-on: ubuntu-latest
     steps:
-      # rcuperation du code depuis le depot
+      # recupération du code depuis le depot
       - name: Checkout code
         uses: actions/checkout@v2
     
-      # configuration de node.js
+      # configuration de Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with: 
           node-version: '20'
 
-      # installation des dépendances
+      # installation des dependances
       - name: Install dependencies
         run: npm install
 
@@ -29,13 +29,23 @@ jobs:
       - name: Run ESLint
         run: npm run lint
 
-      # build du projet
+      # Build du projet
       - name: Build the project
         run: |
           if [ $GITHUB_REF = "refs/heads/master" ]; then
             echo "Building for production...";
-            npm run build -- --configuration=production;  # Build en production
+            npm run build -- --configuration=production;
           else
             echo "Building for development...";
             npm run build;  # Build en développement
           fi
+
+      # Deploy FTP
+      - name: Deploy FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ftp.cluster100.hosting.ovh.net
+          username: zineedp
+          password: Zineddine77
+          local-dir: dist/zine-eddinetoubal/browser/
+          server-dir: /www/
