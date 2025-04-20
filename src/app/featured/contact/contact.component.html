@@ -1,1 +1,38 @@
-<p>contact works!</p>
+<section class="contact" id="contact">
+    <div class="contact-container">
+        <h2>Contactez-moi</h2>
+        <p>Si vous avez des questions ou souhaitez discuter de collaborations, n'hésitez pas à me contacter en
+            remplissant le formulaire ci-dessous.</p>
+
+        <form (submit)="onSubmit(contactForm)" #contactForm="ngForm">
+            <div class="form-group row">
+                <div class="col">
+                    <label for="name" required>Nom <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" ngModel required />
+                </div>
+                <div class="col">
+                    <label for="prenom" required>Prénom <span class="required">*</span></label>
+                    <input type="text" id="prenom" name="prenom" ngModel required />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="entreprise">Entreprise</label>
+                <input type="text" id="entreprise" name="entreprise" ngModel />
+            </div>
+
+            <div class="form-group">
+                <label for="email" required>Email <span class="required">*</span></label>
+                <input type="email" id="email" name="email" ngModel required />
+            </div>
+
+            <div class="form-group">
+                <label for="message" required>Message <span class="required">*</span></label>
+                <textarea id="message" name="message" ngModel required></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Envoyer</button>
+        </form>
+        <p class="required-note">* Les champs obligatoires doivent être remplis.</p>
+    </div>
+</section>

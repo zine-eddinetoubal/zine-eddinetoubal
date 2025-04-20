@@ -1,0 +1,113 @@
+.experiences {
+    background-color: #2c3e50;
+    color: white;
+    padding: 50px 20px;
+
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .timeline {
+        position: relative;
+        max-width: 900px;
+        margin: auto;
+        padding: 20px 0;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background-color: #ffffff;
+        }
+    }
+
+    .timeline-item {
+        position: relative;
+        width: 50%;
+        padding: 20px 30px;
+        box-sizing: border-box;
+
+        &.left {
+            left: 0;
+            text-align: left;
+        }
+
+        &.right {
+            left: 50%;
+            text-align: left;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            width: 20px;
+            height: 20px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        &.left::after {
+            right: -10px;
+        }
+
+        &.right::after {
+            left: -10px;
+        }
+
+        .timeline-content {
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        h3 {
+            margin-top: 0;
+            font-size: 1.3rem;
+            color: white;
+        }
+
+        .duration,
+        .location,
+        .description,
+        .competences {
+            color: white;
+        }
+
+        .competences {
+            margin-top: 10px;
+            font-style: italic;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .timeline::before {
+            left: 20px;
+        }
+
+        .timeline-item {
+            width: 100%;
+            padding-left: 50px;
+            text-align: left;
+
+            &.left,
+            &.right {
+                left: 0;
+                right: 0;
+            }
+
+            &::after {
+                left: 0 !important;
+            }
+        }
+    }
+}

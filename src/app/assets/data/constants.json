@@ -1,0 +1,19 @@
+{
+    "header": {
+        "profil": "Profil",
+        "competences": "Compétences",
+        "experiences": "Expériences",
+        "contact": "Contact"
+    },
+    "btn": {
+        "connaissance": "Faisons connaissance"
+    },
+    "profil": {
+        "titre": "À Propos de Moi",
+        "aboutMe": "Je suis Zine-Eddine TOUBAL, étudiant à l'université de Rouen Normandie en Master 2 Génie de l'Informatique logicielle. Développeur Full-Stack passionné par la création d'applications modernes et performantes. Issu d'un parcours technique diversifié, je mets à profit ma curiosité et mon esprit analytique pour concevoir des applications performantes et intuitives.",
+        "aboutMeShort": "Toujours en quête d'apprentissage, j'aime relever des défis, collaborer sur des projets innovants et partager mes connaissances."
+    },
+    "footer": {
+        "titre": "Copyright © 2025 By Zine-Eddine TOUBAL"
+    }
+}

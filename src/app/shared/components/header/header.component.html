@@ -1,1 +1,26 @@
-<p>header works!</p>
+<nav class="navbar">
+  <div class="container-fluid">
+    <button class="navbar-brand" (click)="scrollToHome()">
+      <div class="avatar-img"></div>.
+    </button>
+
+    <ul class="navbar-nav" [ngClass]="{'show': menuOpen}">
+      <li class="nav-item">
+        <button class="nav-link" (click)="scrollToAbout()">{{ header.profil }}</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" (click)="scrollToSkills()">{{ header.competences }}</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" (click)="scrollToExperiences()">{{ header.experiences }}</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" (click)="scrollToContact()">{{ header.contact }}</button>
+      </li>
+    </ul>
+  </div>
+
+  <button class="navbar-toggler" type="button" (click)="toggleMenu()">
+    <mat-icon class="navbar-toggler-icon">menu</mat-icon>
+  </button>
+</nav>
