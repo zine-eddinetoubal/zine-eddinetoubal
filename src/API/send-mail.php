@@ -11,8 +11,19 @@ if (in_array($origin, $allowed_origins)) {
 }
 
 function is_valid_text($text, $maxLength = 255) {
-    return is_string($text) && strlen($text) <= $maxLength && preg_match('/^[\p{L}\p{N}\s\.\-\'"]+$/u', $text);
+    if (!is_string($text)) {
+        return false;
+    }
+    if (strlen($text) > $maxLength) {
+        return false;
+    }
+    if (!preg_match('/^[\p{L}\p{N}\s\.\-\'"]+$/u', $text)) {
+        return false;
+    }
+    return true;
 }
+
+$data = json_decode(file_get_contents('php://input'), true);
 
 $name = trim($data['name'] ?? '');
 $prenom = trim($data['prenom'] ?? '');

@@ -96,7 +96,7 @@
             "competences": ""
         }
     ],
-    "formation": [
+    "formations": [
         {
             "universite": "Université de Rouen Normandie",
             "diplome": "Master Génie de l'Informatique Logicielle",
@@ -119,6 +119,12 @@
             "institution": "AWS Academy at NED University",
             "dateDeDelivrance": "avril 2023",
             "lienCertificat": "https://www.credly.com/badges/91bd2143-59bc-4447-bb1b-b606ba9c9b5e"
+        },
+        {
+            "titre": "MOOC de l'ANSSI à l'initiation à la cybersécurité",
+            "institution": "ANSSI - Agence nationale de la sécurité des systèmes d'information",
+            "dateDeDelivrance": "avril 2025",
+            "lienCertificat": "../../assets/files/attestation MOOC ANSSI.pdf"
         }
     ],
     "projets": [

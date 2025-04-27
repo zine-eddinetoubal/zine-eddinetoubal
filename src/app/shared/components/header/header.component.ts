@@ -42,8 +42,8 @@ export class HeaderComponent {
     this.router.navigate(['/']);
   }
 
-  scrollToSkills() {
-    this.scrollService.triggerScrollToSkills();
+  navigateToFormation() {
+    this.router.navigate(['/formation']);
   }
 
   scrollToContact() {

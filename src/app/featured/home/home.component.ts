@@ -11,7 +11,7 @@ import { Config } from '../../core/config/config';
 import { ExperiencesComponent } from "../experiences/experiences.component";
 import { CvComponent } from '../cv/cv.component';
 import { ContactComponent } from "../contact/contact.component";
-
+import { environment } from '../../../environments/environment';
 @Component({
   selector: 'app-home',
   imports: [
@@ -30,20 +30,18 @@ import { ContactComponent } from "../contact/contact.component";
 })
 export class HomeComponent implements OnInit {
   btn!: Btn;
+  name: string;
 
   constructor(private scrollService: ScrollService, private http: HttpClient) {
     this.getBtn().subscribe(data => {
       this.btn = data.btn;
     });
+    this.name = environment.siteOwner;
   }
 
   ngOnInit() {
     this.scrollService.scrollToAbout$.subscribe(() => {
       this.scrollToAbout();
-    });
-
-    this.scrollService.scrollToSkills$.subscribe(() => {
-      this.scrollToSkills();
     });
 
     this.scrollService.scrollToExperiences$.subscribe(() => {
@@ -62,12 +60,6 @@ export class HomeComponent implements OnInit {
     }
   }
 
-  scrollToSkills() {
-    const skillsSection = document.getElementById('competences');
-    if (skillsSection) {
-      skillsSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
 
   scrollToContact() {
     const skillsSection = document.getElementById('contact');
