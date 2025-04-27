@@ -8,7 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:zine-eddinetoubal": "node dist/zine-eddinetoubal/server/server.mjs",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "start:prod": "ng serve --configuration=production",
+    "build:prod": "ng build --configuration=production"
   },
   "private": true,
   "dependencies": {
