@@ -1,0 +1,32 @@
+<section class="formations-certifications">
+    <h2 class="section-title">Mes Formations & Certifications</h2>
+  
+    <div class="formations">
+      <h3 class="section-subtitle">Mes Formations</h3>
+      <div *ngFor="let formation of formations" class="formation-certification">
+        <h3 class="institution-title">{{ formation.universite }}</h3>
+        <p><strong>Diplôme :</strong> {{ formation.diplome }}</p>
+        <p><strong>Période :</strong> {{ formation.periode }}</p>
+      </div>
+    </div>
+  
+    <div class="certifications">
+      <h3 class="section-subtitle">Mes Certifications</h3>
+      <div *ngFor="let certificat of certifications" class="formation-certification">
+        <h3 class="institution-title">{{ certificat.titre }}</h3>
+        <p><strong>Institution : </strong>{{ certificat.institution }}</p>
+        <p><strong>Date de délivrance : </strong> {{ certificat.dateDeDelivrance }}</p>
+
+
+        <a *ngIf="certificat.lienCertificat && certificat.lienCertificat.includes('https')"
+            [href]="certificat.lienCertificat" target="_blank" class="certification-button">
+        Voir le certificat
+        </a>
+
+        <a *ngIf="certificat.lienCertificat && !certificat.lienCertificat.includes('https')"
+            [href]="certificat.lienCertificat" download="Attestation.pdf" target="_blank" class="certification-button">
+        Télécharger l'attestation
+        </a>
+      </div>
+    </div>
+  </section>

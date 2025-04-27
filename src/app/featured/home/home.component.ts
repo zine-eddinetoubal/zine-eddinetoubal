@@ -44,10 +44,6 @@ export class HomeComponent implements OnInit {
       this.scrollToAbout();
     });
 
-    this.scrollService.scrollToSkills$.subscribe(() => {
-      this.scrollToSkills();
-    });
-
     this.scrollService.scrollToExperiences$.subscribe(() => {
       this.scrollToExperiences();
     });
@@ -64,12 +60,6 @@ export class HomeComponent implements OnInit {
     }
   }
 
-  scrollToSkills() {
-    const skillsSection = document.getElementById('competences');
-    if (skillsSection) {
-      skillsSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
 
   scrollToContact() {
     const skillsSection = document.getElementById('contact');

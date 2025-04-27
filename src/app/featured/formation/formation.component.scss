@@ -1,0 +1,105 @@
+.formations-certifications {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+
+    .section-title {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+
+    .section-subtitle {
+        font-size: 2rem;
+        color: #2c3e50;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bold;
+        border-bottom: 2px solid #2c3e50;
+        padding-bottom: 5px;
+    }
+
+    .formations,
+    .certifications {
+        margin-bottom: 40px;
+    }
+
+    .formation-certification {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .institution-title {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #444;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        a.certification-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #2c3e50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-top: 10px;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+
+            &:hover {
+                background-color: #527497;
+            }
+
+            &:active {
+                background-color: darken(#2c3e50, 10%);
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .formation-certification {
+            padding: 15px;
+            margin: 30px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-top: 40px;
+        }
+
+        .section-subtitle {
+            font-size: 1.5rem;
+            margin: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        a.certification-button {
+            font-size: 1rem;
+        }
+    }
+}
