@@ -1,0 +1,32 @@
+.construction-message {
+    position: fixed;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #f8d7da, #f1c6c6);
+    color: #721c24;
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    z-index: 1000;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    border-radius: 10px 10px 0 0;
+    animation: scrollMessage 20s linear infinite;
+    transition: background 0.3s ease;
+}
+
+.construction-message:hover {
+    background: linear-gradient(to right, #f1c6c6, #f8d7da);
+}
+
+@keyframes scrollMessage {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
