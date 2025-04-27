@@ -1,41 +1,32 @@
 <section class="formations-certifications">
     <h2 class="section-title">Mes Formations & Certifications</h2>
-
+  
     <div class="formations">
-        <h3 class="section-subtitle">Mes Formations</h3>
-        <div class="formation-certification">
-            <h3 class="institution-title">Université de Rouen Normandie</h3>
-            <p><strong>Diplôme :</strong> Master Génie de l'Informatique Logicielle</p>
-            <p><strong>Période :</strong> sept 2023 - juin 2025</p>
-        </div>
-
-        <div class="formation-certification">
-            <h3 class="institution-title">Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf</h3>
-            <p><strong>Diplôme :</strong> Master 1 Système d'information et donnée</p>
-            <p><strong>Période :</strong> sept 2022 - juin 2023</p>
-        </div>
-
-        <div class="formation-certification">
-            <h3 class="institution-title">Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf</h3>
-            <p><strong>Diplôme :</strong> Licence en informatique, Système informatiques</p>
-            <p><strong>Période :</strong> sept 2019 - juin 2022</p>
-        </div>
+      <h3 class="section-subtitle">Mes Formations</h3>
+      <div *ngFor="let formation of formations" class="formation-certification">
+        <h3 class="institution-title">{{ formation.universite }}</h3>
+        <p><strong>Diplôme :</strong> {{ formation.diplome }}</p>
+        <p><strong>Période :</strong> {{ formation.periode }}</p>
+      </div>
     </div>
-
+  
     <div class="certifications">
-        <h3 class="section-subtitle">Mes Certifications</h3>
-        <div class="formation-certification">
-            <h3 class="institution-title">AWS Academy Cloud Foundations</h3>
-            <p><strong>Institution :</strong> AWS Academy at NED University</p>
-            <p><strong>Date de délivrance :</strong> avril 2023</p>
-            <!-- <a href="https://www.credly.com/badges/91bd2143-59bc-4447-bb1b-b606ba9c9b5e" target="_blank" class="certification-button">Voir le certificat</a> -->
-        </div>
+      <h3 class="section-subtitle">Mes Certifications</h3>
+      <div *ngFor="let certificat of certifications" class="formation-certification">
+        <h3 class="institution-title">{{ certificat.titre }}</h3>
+        <p><strong>Institution : </strong>{{ certificat.institution }}</p>
+        <p><strong>Date de délivrance : </strong> {{ certificat.dateDeDelivrance }}</p>
 
-        <div class="formation-certification">
-            <h3 class="institution-title">MOOC de l'ANSSI à l'initiation à la cybersécurité</h3>
-            <p><strong>Institution :</strong> ANSSI - Agence nationale de la sécurité des systèmes d'information</p>
-            <p><strong>Date de délivrance :</strong> avril 2025</p>
-            <a href="../files/attestation MOOC ANSSI.pdf" target="_blank" class="certification-button">Télécharger le certificat</a>
-        </div>
+
+        <a *ngIf="certificat.lienCertificat && certificat.lienCertificat.includes('https')"
+            [href]="certificat.lienCertificat" target="_blank" class="certification-button">
+        Voir le certificat
+        </a>
+
+        <a *ngIf="certificat.lienCertificat && !certificat.lienCertificat.includes('https')"
+            [href]="certificat.lienCertificat" download="Attestation.pdf" target="_blank" class="certification-button">
+        Télécharger l'attestation
+        </a>
+      </div>
     </div>
-</section>
+  </section>

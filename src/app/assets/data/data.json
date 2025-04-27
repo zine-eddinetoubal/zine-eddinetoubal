@@ -96,7 +96,7 @@
             "competences": ""
         }
     ],
-    "formation": [
+    "formations": [
         {
             "universite": "Université de Rouen Normandie",
             "diplome": "Master Génie de l'Informatique Logicielle",
@@ -124,7 +124,7 @@
             "titre": "MOOC de l'ANSSI à l'initiation à la cybersécurité",
             "institution": "ANSSI - Agence nationale de la sécurité des systèmes d'information",
             "dateDeDelivrance": "avril 2025",
-            "lienCertificat": "../files/attestation MOOC ANSSI.pdf"
+            "lienCertificat": "../../assets/files/attestation MOOC ANSSI.pdf"
         }
     ],
     "projets": [
