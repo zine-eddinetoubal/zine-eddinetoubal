@@ -38,8 +38,18 @@
             "duree": "sept 2024 - aujourd’hui",
             "lieu": "Le havre, France",
             "place": "Hybride",
-            "description": "- Analyse des besoins clients et élaboration de solutions adaptées.\n\n- Conception et architecture des systèmes logiciels.\n\n- Développement et intégration de solutions logicielles.\n\n- Technologies (.NET, ReactJS, PHP, Azure DevOps, JIRA, CI/CD)",
-            "competences": "Agile Development · Méthodologies agiles · Interfaces de programmation d'applications (API) · Architecture MVC · Esprit d’équipe · .NET framework · ASP.NET · React.js · Cypress · JIRA · Gitlab · Azure DevOps · PHP · Applications PHP"
+            "description": "-  Analyser les besoins clients et rédiger les spécifications techniques et fonctionnelles.\n\n-  Concevoir l’architecture logicielle selon la Clean Architecture et choisir les patterns.\n\n- Développer en Full-Stack avec en Front-End ReactJS et Back-End en ASP .NET, PHP.\n\n- Assurer la qualité du code, créer des tests unitaires, valider la couverture, revue de code.\n\n- Mettre en place des pipelines CI/CD Azure DevOps.\n\n- Déployer les applications et assurer la mise en production.\n\n- Gérer le support et la maintenance, traiter les incidents, corriger en Hotfix.",
+            "competences": "· Méthodologies agiles · Architecture MVC · SOLID · Clean Architecture · Docker · CI/CD · Azure DevOps · Scrum · JIRA · GitLab · Linux · SonarQube · MariaDB · SQL Server · PostgreSQL · React.js · ASP.NET Core · PHP · Tests unitaires"
+        },
+        {
+            "titre": "Scrum Master & Développeur DevOps",
+            "entreprise": "Université de Rouen Normandie - Projet annuel Master 2",
+            "type": "Stage",
+            "duree": "octobre 2024 - mars 2025",
+            "lieu": "Rouen, France",
+            "place": "En présentiel",
+            "description": "- Animer les cérémonies Scrum : Daily, Sprint Planning, Review, Rétrospective.\n\n- Gérer et prioriser le Backlog dans JIRA.\n\n- Assister les Product Owners dans la rédaction et l’affinage des user stories.\n\n- Assister les équipes dans les estimations des tâches et les user stories.\n\n- Mettre en place un workflow Git.\n\n- Configurer GitLab et créer des Git Hooks pour automatiser les conventions de commit.\n\n- Assister les membres de l’équipe dans la mise en Place de SonarQube et CI/CD.",
+            "competences": "Méthodologie agile · Youtrack · Planning Poker · MVC · SOLID · Micro-services · PGVector · PostgreSQL · MySQL · Scrum · JIRA · GitLab · Docker · CI/CD · SonarQube · Kafka · Keycload"
         },
         {
             "titre": "Développeur concepteur",
@@ -48,8 +58,8 @@
             "duree": "mai 2024 - août 2024",
             "lieu": "Nanterre, Île-de-France, France",
             "place": "En présentiel",
-            "description": "- Recueil et analyse des besoins métier pour EDF Renouvelables.\n\n- Développement de deux applications sur la Power Platform.\n\n- Participation aux cérémonies Scrum et collaboration avec l'équipe de développement",
-            "competences": "Communication · Esprit d’équipe · Méthodologie agile · Microsoft Power Platform · Conception d’applications mobiles · Conception d’interfaces mobiles · SharePoint · PowerShell"
+            "description": "- Recueillir et formaliser les besoins métier.\n\n- Rédiger les user stories et cas d’usage.\n\n- Elaborer des maquettes fonctionnelles et des diagrammes UML.\n\n- Documenter les spécifications techniques et fonctionnelles.\n\n- Développer deux application Power Apps.\n\n- Automatiser les workflows avec Power Automate.",
+            "competences": "Méthodologie agile · Communication · Esprit d’équipe · Conception · MVC · SOLID · Firebase · MariaDB · SQL Server · PostgreSQL · Power Apps · Power Automate · Microsoft 365 · Linux · PowerShell · SharePoint · Scrum · JIRA"
         },
         {
             "titre": "Développeur web",
@@ -58,8 +68,8 @@
             "duree": "oct 2023 · mai 2024",
             "lieu": "Rouen, France",
             "place": "Hybride",
-            "description": "- Conception d’une application en groupe de 7 personnes\n\n- Application web utilisant les technologies( Symfony, React, la méthodologie agile SCRUM, JIRA et Gitlab.)",
-            "competences": "Conception de bases de données · Développement agile · Méthodologie SCRUM · PHP · Tests logiciels · Doctrine (PHP) · Postman API · React.js · Conception web · Méthodes agiles · Tests fonctionnels · Symfony · Tests unitaires · Gitlab · JIRA"
+            "description": "- Recueillir les besoins auprès des ornithologues et bénévoles de LPO.\n\n- Rédiger le cahier des charges et les spécifications fonctionnelles et techniques.\n\n- Établir l’architecture logicielle.\n\n- Concevoir le cahier de recette et le plan de tests (critères d’acceptation et scénarios de validation).\n\n- Planifier la roadmap projet et le découpage des sprints dans JIRA.\n\n- Développement de l’application en React et Symfony",
+            "competences": "Méthodologie agile · Scrum · Communication · Esprit d’équipe · Conception · MVC · SOLID · MariaDB · UML · React.js · Symfony · Tests fonctionnels · Tests unitaires · Gitlab · JIRA"
         },
         {
             "titre": "Développeur web",
@@ -68,8 +78,8 @@
             "duree": "août 2022 - août 2023",
             "lieu": "Paris, France",
             "place": "À distance",
-            "description": "- Maintenance et développement du système web\n\n -Technologies utilisées :(Angular, TypeScript, Git, Firebase, Trello, Bitbucket.)",
-            "competences": "Web Development · Trello · Bitbucket · Git · Scrum · Teamwork · Firebase · Angular · Ionic Framework"
+            "description": "- Maintenir et corriger les anomalies de la plateforme pour assurer sa disponibilité.\n\n- Concevoir et développer de nouvelles fonctionnalités.\n\n- Implémenter des services Back-end via Firebase.\n\n- Gérer les tâches et prioriser le Backlog dans Trello.\n\n- Assurer le versioning et la revue de code via Bitbucket.\n\n",
+            "competences": "Méthodologie agile · Scrum · Communication · Esprit d’équipe · Conception · MariaDB · Firebase · Symfony · Angular · Trello · Bitbucket · Git"
         },
         {
             "titre": "Freelance",
@@ -78,7 +88,7 @@
             "duree": "sept 2021 - juil 2023",
             "lieu": "Oran, Algérie",
             "place": "À distance",
-            "description": "- Conception et développement d'applications Android et web \n\n -Utilisation des technologies (Flutter, Firebase, Git, PHP, JS, JAVA, HTML, CSS et MySQL.",
+            "description": "- Conception et développement d'applications Android et web. \n\n -Utilisation des technologies (Flutter, Firebase, Git, PHP, JS, JAVA, HTML, CSS et MySQL.",
             "competences": "Flutter · PHP · Mobile Application Development · Android Development · Firebase · Angular · MySQL · Application Programming Interfaces (API) · Ionic Framework · Git · GitHub"
         },
         {
@@ -106,7 +116,7 @@
         {
             "universite": "Université de Rouen Normandie",
             "diplome": "Master Génie de l'Informatique Logicielle",
-            "periode": "sept 2023 - juin 2025"
+            "periode": "sept 2023 - sept 2025"
         },
         {
             "universite": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
