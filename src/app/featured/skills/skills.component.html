@@ -51,6 +51,22 @@
           </div>
         </div>
         
+         <!-- Architecture & Design -->
+        <div class="competence-column">
+          <h3>Architecture et conception</h3>
+          <div *ngIf="competences?.architecture_design">
+            <div *ngFor="let key of objectKeys(competences!.architecture_design)">
+              <div class="competence-item">
+                <span class="progess-key">{{ key }}</span>
+                <div class="progress-bar">
+                  <div class="progress" [style.width.%]="competences!.architecture_design[key]"></div>
+                </div>
+                <span class="progress-pourcentage">{{ competences!.architecture_design[key] }}%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>

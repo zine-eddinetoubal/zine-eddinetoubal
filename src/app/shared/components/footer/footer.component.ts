@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
   styleUrl: './footer.component.scss'
 })
 export class FooterComponent {
-  footer!: Footer;
+  footer?: Footer;
 
   constructor(private http: HttpClient, private router: Router) {
     this.getFooter().subscribe(data => {

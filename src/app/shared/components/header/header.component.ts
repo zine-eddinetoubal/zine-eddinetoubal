@@ -22,7 +22,7 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent {
   menuOpen = false;
-  header!: Header;
+  header?: Header;
 
   constructor(private scrollService: ScrollService, private http: HttpClient, private router: Router) {
     this.getHeader().subscribe(data => {

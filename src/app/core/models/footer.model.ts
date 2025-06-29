@@ -1,3 +1,3 @@
 export interface Footer {
-    titre: string
+    titre?: string
 }

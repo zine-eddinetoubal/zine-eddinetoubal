@@ -1,3 +1,3 @@
 export interface Btn {
-    connaissance: string
+    connaissance?: string
 }
