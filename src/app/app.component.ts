@@ -1,34 +1,45 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { AfterViewInit, Component, Inject, PLATFORM_ID } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from "./shared/components/header/header.component";
-import { FooterComponent } from "./shared/components/footer/footer.component";
+import { HeaderComponent } from './shared/components/header/header.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 import { environment } from '../environments/environment';
 import { Title } from '@angular/platform-browser';
+import { isPlatformBrowser, DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,
+  standalone: true,
+  imports: [
+    RouterOutlet,
     HeaderComponent,
     FooterComponent
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements AfterViewInit {
-
-  constructor(private title: Title) {
+  constructor(
+    private title: Title,
+    @Inject(PLATFORM_ID) private platformId: object,
+    @Inject(DOCUMENT) private document: Document
+  ) {
     this.title.setTitle(environment.siteTitle);
   }
 
   ngAfterViewInit(): void {
-    this.updateFavicon(environment.faviconPath);
+    if (isPlatformBrowser(this.platformId)) {
+      this.updateFavicon(environment.faviconPath);
+    }
   }
 
-  updateFavicon(faviconPath: string) {
-    const link: HTMLLinkElement | null = document.querySelector("link[rel*='icon']") as HTMLLinkElement;
-    if (link) {
-      link.href = faviconPath;
-      link.type = 'image/jpg';
+  private updateFavicon(faviconPath: string): void {
+    let link = this.document.querySelector<HTMLLinkElement>("link[rel*='icon']");
+    if (!link) {
+      link = this.document.createElement('link');
+      link.setAttribute('rel', 'icon');
+      this.document.head.appendChild(link);
     }
+    link.href = faviconPath;
+    link.type = 'image/x-icon';
   }
 }
