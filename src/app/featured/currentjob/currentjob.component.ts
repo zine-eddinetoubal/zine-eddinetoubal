@@ -11,7 +11,7 @@ import { Config } from '../../core/config/config';
   styleUrl: './currentjob.component.scss'
 })
 export class CurrentJobComponent {
-  currentJob!: CurrentJob;
+  currentJob?: CurrentJob;
 
   constructor(private http: HttpClient) {
     this.getCurrentJob().subscribe(data => {

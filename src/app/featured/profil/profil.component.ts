@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './profil.component.scss'
 })
 export class ProfilComponent {
-  profil!: Profil;
+  profil?: Profil;
 
   constructor(private http: HttpClient) {
     this.getProfil().subscribe(data => {

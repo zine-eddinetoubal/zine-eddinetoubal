@@ -29,7 +29,7 @@ import { environment } from '../../../environments/environment';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent implements OnInit {
-  btn!: Btn;
+  btn?: Btn;
   name: string;
 
   constructor(private scrollService: ScrollService, private http: HttpClient) {
