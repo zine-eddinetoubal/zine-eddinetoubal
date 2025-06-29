@@ -22,6 +22,12 @@
             "Jira / Trello / Youtrack": 70,
             "Docker / Linux": 50,
             "Scrum": 70
+        },
+        "architecture_design": {
+            "Clean Architecture": 70,
+            "MVC": 70,
+            "Principes SOLIDES": 70,
+            "Patron de conception": 60
         }
     },
     "experiences": [
