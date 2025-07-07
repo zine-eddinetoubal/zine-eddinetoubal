@@ -36,7 +36,7 @@
             "entreprise": "Artelia Digital Solutions",
             "type": "Contrat en alternance",
             "duree": "sept 2024 - aujourd’hui",
-            "lieu": "Le havre, France",
+            "lieu": "Le Havre, France",
             "place": "Hybride",
             "description": "-  Analyser les besoins clients et rédiger les spécifications techniques et fonctionnelles.\n\n-  Concevoir l’architecture logicielle selon la Clean Architecture et choisir les patterns.\n\n- Développer en Full-Stack avec en Front-End ReactJS et Back-End en ASP .NET, PHP.\n\n- Assurer la qualité du code, créer des tests unitaires, valider la couverture, revue de code.\n\n- Mettre en place des pipelines CI/CD Azure DevOps.\n\n- Déployer les applications et assurer la mise en production.\n\n- Gérer le support et la maintenance, traiter les incidents, corriger en Hotfix.",
             "competences": "· Méthodologies agiles · Architecture MVC · SOLID · Clean Architecture · Docker · CI/CD · Azure DevOps · Scrum · JIRA · GitLab · Linux · SonarQube · MariaDB · SQL Server · PostgreSQL · React.js · ASP.NET Core · PHP · Tests unitaires"
@@ -58,14 +58,14 @@
             "duree": "mai 2024 - août 2024",
             "lieu": "Nanterre, Île-de-France, France",
             "place": "En présentiel",
-            "description": "- Recueillir et formaliser les besoins métier.\n\n- Rédiger les user stories et cas d’usage.\n\n- Elaborer des maquettes fonctionnelles et des diagrammes UML.\n\n- Documenter les spécifications techniques et fonctionnelles.\n\n- Développer deux application Power Apps.\n\n- Automatiser les workflows avec Power Automate.",
+            "description": "- Recueillir et formaliser les besoins métier.\n\n- Rédiger les user stories et cas d’usage.\n\n- Elaborer des maquettes fonctionnelles et des diagrammes UML.\n\n- Documenter les spécifications techniques et fonctionnelles.\n\n- Développer deux applications Power Apps.\n\n- Automatiser les workflows avec Power Automate.",
             "competences": "Méthodologie agile · Communication · Esprit d’équipe · Conception · MVC · SOLID · Firebase · MariaDB · SQL Server · PostgreSQL · Power Apps · Power Automate · Microsoft 365 · Linux · PowerShell · SharePoint · Scrum · JIRA"
         },
         {
             "titre": "Développeur web",
             "entreprise": "LPO France",
             "type": "",
-            "duree": "oct 2023 · mai 2024",
+            "duree": "oct 2023 - mai 2024",
             "lieu": "Rouen, France",
             "place": "Hybride",
             "description": "- Recueillir les besoins auprès des ornithologues et bénévoles de LPO.\n\n- Rédiger le cahier des charges et les spécifications fonctionnelles et techniques.\n\n- Établir l’architecture logicielle.\n\n- Concevoir le cahier de recette et le plan de tests (critères d’acceptation et scénarios de validation).\n\n- Planifier la roadmap projet et le découpage des sprints dans JIRA.\n\n- Développement de l’application en React et Symfony",
@@ -98,7 +98,7 @@
             "duree": "juin 2022 - juil 2022",
             "lieu": "Oran, Algérie",
             "place": "En présentiel",
-            "description": "- Intervention lors de pannes matérielles en diagnostiquant la source du problème et en appliquant le protocole approprié.\n\n- Affecté auprès des ingénieurs de l'entreprise MicroPlus Informatica pour le système de résultats sur site ON VENUE RESULT SYSTEM (OVRS).",
+            "description": "- Intervention lors de pannes matérielles en diagnostiquant la source du problème et en appliquant le protocole approprié.\n\n- Affecter auprès des ingénieurs de l'entreprise MicroPlus Informatica pour le système de résultats sur site ON VENUE RESULT SYSTEM (OVRS).",
             "competences": "Travail d'équipe · Réseaux informatiques · Réseau · Matériel informatique · Serveurs"
         },
         {
@@ -120,24 +120,24 @@
         },
         {
             "universite": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
-            "diplome": "Master 1 Système d'information et donnée",
+            "diplome": "Master 1 Systèmes d'Information et Données",
             "periode": "sept 2022 - juin 2023"
         },
         {
             "universite": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
-            "diplome": "Licence en informatique, Système informatiques",
+            "diplome": "Licence en Système informatiques",
             "periode": "sept 2019 - juin 2022"
         }
     ],
     "certifications": [
         {
             "titre": "AWS Academy Cloud Foundations",
-            "institution": "AWS Academy at NED University",
+            "institution": "AWS Academy",
             "dateDeDelivrance": "avril 2023",
             "lienCertificat": "https://www.credly.com/badges/91bd2143-59bc-4447-bb1b-b606ba9c9b5e"
         },
         {
-            "titre": "MOOC de l'ANSSI à l'initiation à la cybersécurité",
+            "titre": "MOOC de l'ANSSI - Initiation à la cybersécurité",
             "institution": "ANSSI - Agence nationale de la sécurité des systèmes d'information",
             "dateDeDelivrance": "avril 2025",
             "lienCertificat": "../../assets/files/attestation MOOC ANSSI.pdf"
