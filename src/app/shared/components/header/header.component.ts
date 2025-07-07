@@ -46,8 +46,8 @@ export class HeaderComponent {
     this.router.navigate(['/formation']);
   }
 
-  scrollToContact() {
-    this.scrollService.triggerScrollToContact();
+  scrollToProjets() {
+    this.router.navigate(['/projets']);
   }
 
   scrollToExperiences() {

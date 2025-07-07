@@ -150,6 +150,7 @@
                 "debut": "févr. 2024",
                 "fin": "mai 2024"
             },
+            "type": "Académique",
             "institution": "Université de Rouen",
             "description": "Transformation d'une architecture monolithique vers une architecture microservices, avec un accent particulier sur l'intérêt musical pour connecter les utilisateurs. Ce projet collaboratif rassemble un groupe de cinq collaborateurs déterminés à relever ce défi. Pour garantir une implémentation progressive et minutieuse, nous avons décidé d'utiliser des technologies de pointe telles que Docker, Kafka, Kubernetes et Keycloak.",
             "competences": "Kubernetes - Kafka - Git - Docker - Langage de modélisation unifié (UML) - Keycloak - JIRA - Gitlab"
@@ -160,6 +161,7 @@
                 "debut": "oct. 2023",
                 "fin": "mai 2024"
             },
+            "type": "Académique",
             "institution": "Université de Rouen",
             "description": "Mise en place d'une application web pour protéger la biodiversité en Normandie, en collaboration avec LPO Normandie. Travail en équipe de sept personnes pour implémenter des fonctionnalités comme la gestion des rôles des utilisateurs et l'ajout des fiches d'observation des animaux en Normandie par les adhérents de l'association. Gestion de la validation des fiches et de l'analyse des fiches. Déploiement et l'accent sur la qualité du code.",
             "competences": "Scrum - Conception base de données - Git - Langage de modélisation unifié (UML) - Postman API - Doctrine (PHP) - Symfony - Agile Methodologies - JIRA - Conception web - React.js - Gitlab - Statistiques"
@@ -170,6 +172,7 @@
                 "debut": "nov. 2023",
                 "fin": "déc. 2023"
             },
+            "type": "Académique",
             "institution": "Université de Rouen",
             "description": "Mise en place d'une application visant à cartographier le vocabulaire terminologique associé à des concepts, en particulier des matériaux, dans des domaines spécifiques. La soumission d'un concept peut être effectuée par les utilisateurs en téléchargeant une image et en identifiant les composants avec leurs emplacements. Dans la langue naturelle de l'utilisateur, chaque composant est lié à sa terminologie. Tous les utilisateurs de la plateforme peuvent accéder aux résultats sauvegardés. Les utilisateurs ont la faculté de proposer des traductions dans différentes langues sur la plateforme, ce qui facilite la collaboration multilingue.",
             "competences": "PhpMyAdmin - PHP - Architecture MVC - HTML5 - CSS - JavaScript - jQuery"
@@ -180,6 +183,7 @@
                 "debut": "nov. 2023",
                 "fin": "nov. 2023"
             },
+            "type": "Académique",
             "institution": "Université de Rouen",
             "description": "Exploration de l'efficacité de l'algorithme d'Aho-Corasick pour la recherche de motifs dans un texte, implémenté en langage C. Cet algorithme s'appuie sur une structure de données essentielle : un arbre de préfixes, qui stocke efficacement un ensemble de chaînes de caractères facilitant leur recherche. Deux méthodes ont été utilisées pour élaborer cet arbre : l'emploi d'une table de hachage et d'une matrice de transition. L'implémentation avec une table de hachage est plus efficace que celle avec une matrice de transition, démontrant une supériorité en termes de temps de recherche.",
             "competences": "Bash - Python - C"
@@ -190,6 +194,7 @@
                 "debut": "mai 2022",
                 "fin": "juin 2022"
             },
+            "type": "Freelance",
             "institution": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
             "description": "Conception d'une application mobile pour le projet PFE de licence et un projet freelance. Travail individuel de 25 jours pour implémenter des fonctionnalités telles que la recherche de restaurants, la commande en ligne, le suivi des commandes en temps réel, les notifications et l'historique des commandes.",
             "competences": "Trello - Firebase - Conception d’applications mobiles - Flutter - Langage de modélisation unifié (UML)"
@@ -200,6 +205,7 @@
                 "debut": "sept. 2021",
                 "fin": "janv. 2022"
             },
+             "type": "Freelance",
             "institution": "Indépendant",
             "description": "Randolina est une application révolutionnaire conçue pour répondre aux exigences des amateurs de randonnées. Collaboration de deux personnes pour mettre en place des fonctionnalités telles que des messages, des stories de 24 heures, des vidéos/photos, une marketplace et des notifications en temps réel.",
             "competences": "Trello - Firebase - Conception mobile - Flutter - Git - Conception d’interfaces mobiles - GitHub"
@@ -210,6 +216,7 @@
                 "debut": "oct. 2021",
                 "fin": "janv. 2022"
             },
+              "type": "Académique",
             "institution": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
             "description": "Développement d'un langage de programmation appelé Snail, réalisé en Java. Le projet a impliqué la conception de la grammaire du langage, la définition de sa sémantique, de son lexique et de sa syntaxe.",
             "competences": "Trello - Java - Git - GitHub"

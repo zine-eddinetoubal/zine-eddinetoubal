@@ -3,6 +3,7 @@ import { HomeComponent } from './featured/home/home.component';
 import { ContactComponent } from './featured/contact/contact.component';
 import { MentionsLegalesComponent } from './featured/mentions-legales/mentions-legales.component';
 import { FormationComponent } from './featured/formation/formation.component';
+import { ProjectsComponent } from './featured/projects/projects.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent, },
@@ -10,5 +11,6 @@ export const routes: Routes = [
     { path: 'contact', component: ContactComponent },
     { path: 'mentions-legales', component: MentionsLegalesComponent },
     { path: 'formation', component: FormationComponent },
+    { path: 'projets', component: ProjectsComponent },
     { path: '**', component: HomeComponent }
 ];

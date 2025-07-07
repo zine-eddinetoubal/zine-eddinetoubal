@@ -1,1 +1,12 @@
-<p>projects works!</p>
+<section class="projects-section">
+  <h2 class="section-title">Mes Projets</h2>
+  <div class="projects-grid">
+    <div *ngFor="let p of projets" class="project-card">
+      <h3 class="project-title">{{ p.titre }}</h3>
+      <p class="project-period">{{ p.dates.debut }} – {{ p.dates.fin }}</p>
+      <p class="project-institution">{{ p.institution }}</p>
+      <p class="project-description">{{ p.description }}</p>
+      <p class="project-tech"><strong>Compétences :</strong> {{ p.competences }}</p>
+    </div>
+  </div>
+</section>
