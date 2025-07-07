@@ -1,8 +1,8 @@
 {
     "header": {
-        "profil": "Profil",
         "formation": "Formation",
         "experiences": "Expériences",
+        "projet": "Mes Projets",
         "contact": "Contact"
     },
     "btn": {
