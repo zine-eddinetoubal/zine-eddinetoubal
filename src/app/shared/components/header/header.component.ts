@@ -34,11 +34,11 @@ export class HeaderComponent {
     this.menuOpen = !this.menuOpen;
   }
 
-  scrollToAbout() {
-    this.scrollService.triggerScrollToAbout();
+  navigateToHome() {
+    this.router.navigate(['/']);
   }
-
-  scrollToHome() {
+  
+  scrollToProjet() {
     this.router.navigate(['/']);
   }
 
@@ -46,12 +46,12 @@ export class HeaderComponent {
     this.router.navigate(['/formation']);
   }
 
-  scrollToContact() {
-    this.scrollService.triggerScrollToContact();
+  navigateToContact() {
+    this.router.navigate(['/contact']);
   }
 
-  scrollToExperiences() {
-    this.scrollService.triggerScrollToExperiences();
+  navigateToExperiences() {
+    this.router.navigate(['/experiences']);
   }
 
   getHeader(): Observable<{ header: Header }> {
