@@ -37,10 +37,6 @@ export class HeaderComponent {
   navigateToHome() {
     this.router.navigate(['/']);
   }
-  
-  scrollToProjet() {
-    this.router.navigate(['/']);
-  }
 
   navigateToFormation() {
     this.router.navigate(['/formation']);

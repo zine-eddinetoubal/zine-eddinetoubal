@@ -8,20 +8,21 @@
     },
     "competences": {
         "frontend": {
-            "Angular": 80,
-            "React": 60
+            "Angular": 70,
+            "React": 70
         },
         "backend": {
             "Java / J2ee / Spring": 70,
-            "Php / Symfony": 65,
-            "C# (ASP.NET Core)": 60
+            "C# (ASP.NET Core)": 70,
+            "Php / Symfony": 60
         },
         "tools": {
             "MySql/ Sql / PostgreSQL": 70,
             "Git / Github / Gitlab / Azure DevOps": 70,
             "Jira / Trello / Youtrack": 70,
-            "Docker / Linux": 50,
-            "Scrum": 70
+            "Scrum": 70,
+            "SonarQube / Kafka / Kubernetes": 60,
+            "Docker / Linux": 50
         },
         "architecture_design": {
             "Clean Architecture": 70,
