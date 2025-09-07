@@ -4,10 +4,11 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Config } from '../../core/config/config';
 import { CommonModule } from '@angular/common';
+import { LineBreakPipe } from '../../helper/lineBreakPipe';
 
 @Component({
   selector: 'app-profil',
-  imports: [HttpClientModule, CommonModule],
+  imports: [HttpClientModule, CommonModule, LineBreakPipe],
   templateUrl: './profil.component.html',
   styleUrl: './profil.component.scss'
 })
