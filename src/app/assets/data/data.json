@@ -39,7 +39,7 @@
             "duree": "sept 2024 - aujourd’hui",
             "lieu": "Le Havre, France",
             "place": "Hybride",
-            "description": "-  Analyser les besoins clients et rédiger les spécifications techniques et fonctionnelles.\n\n-  Concevoir l’architecture logicielle selon la Clean Architecture et choisir les patterns.\n\n- Développer en Full-Stack avec en Front-End ReactJS et Back-End en ASP .NET, PHP.\n\n- Assurer la qualité du code, créer des tests unitaires, valider la couverture, revue de code.\n\n- Mettre en place des pipelines CI/CD Azure DevOps.\n\n- Déployer les applications et assurer la mise en production.\n\n- Gérer le support et la maintenance, traiter les incidents, corriger en Hotfix.",
+            "description": "-  Analyser les besoins clients et rédiger les spécifications techniques et fonctionnelles.\n\n-  Concevoir l’architecture logicielle selon la Clean Architecture et choisir les patterns.\n\n- Développer en Full-Stack avec en Front-End ReactJS et Back-End en ASP .NET, PHP.\n\n- Rédiger des tests unitaires, vérifier la couverture de tests et réaliser des revues de code pour assurer la qualité logicielle.\n\n- Mettre en place des pipelines CI/CD Azure DevOps.\n\n- Orchestrer le déploiement des applications et assurer la mise en production ainsi que la phase de recette.\n\n- Gérer le support applicatif et la maintenance : traitement des incidents et déploiement des correctifs (Hotfix).",
             "competences": "· Méthodologies agiles · Architecture MVC · SOLID · Clean Architecture · Docker · CI/CD · Azure DevOps · Scrum · JIRA · GitLab · Linux · SonarQube · MariaDB · SQL Server · PostgreSQL · React.js · ASP.NET Core · PHP · Tests unitaires"
         },
         {
@@ -49,7 +49,7 @@
             "duree": "octobre 2024 - mars 2025",
             "lieu": "Rouen, France",
             "place": "En présentiel",
-            "description": "- Animer les cérémonies Scrum : Daily, Sprint Planning, Review, Rétrospective.\n\n- Gérer et prioriser le Backlog dans JIRA.\n\n- Assister les Product Owners dans la rédaction et l’affinage des user stories.\n\n- Assister les équipes dans les estimations des tâches et les user stories.\n\n- Mettre en place un workflow Git.\n\n- Configurer GitLab et créer des Git Hooks pour automatiser les conventions de commit.\n\n- Assister les membres de l’équipe dans la mise en Place de SonarQube et CI/CD.",
+            "description": "- Animer les cérémonies Scrum : Daily, Sprint Planning, Review, Rétrospective.\n\n- Gérer et prioriser le Backlog dans JIRA.\n\n- Assister les Product Owners dans la rédaction et l’affinage des user stories.\n\n- Assister les équipes dans les estimations des tâches et les user stories.\n\n- Mettre en place un workflow Git.\n\n- Configurer Gitlab et créer des Git Hooks pour automatiser les conventions de commits.\n\n- Mettre en place de SonarQube pour l’analyse continue de la qualité de code.\n\n- Assister les développeurs DevOps dans la mise en place de la pipeline CI/CD et la configuration Kafka.",
             "competences": "Méthodologie agile · Youtrack · Planning Poker · MVC · SOLID · Micro-services · PGVector · PostgreSQL · MySQL · Scrum · JIRA · GitLab · Docker · CI/CD · SonarQube · Kafka · Keycload"
         },
         {
@@ -62,6 +62,16 @@
             "description": "- Recueillir et formaliser les besoins métier.\n\n- Rédiger les user stories et cas d’usage.\n\n- Elaborer des maquettes fonctionnelles et des diagrammes UML.\n\n- Documenter les spécifications techniques et fonctionnelles.\n\n- Développer deux applications Power Apps.\n\n- Automatiser les workflows avec Power Automate.",
             "competences": "Méthodologie agile · Communication · Esprit d’équipe · Conception · MVC · SOLID · Firebase · MariaDB · SQL Server · PostgreSQL · Power Apps · Power Automate · Microsoft 365 · Linux · PowerShell · SharePoint · Scrum · JIRA"
         },
+         {
+            "titre": "Conception d'une architecture microservices",
+            "entreprise": "Université de Rouen Normandie - Projet Master 1",
+            "type": "Stage",
+            "duree": "Février 2024 - mai 2024",
+            "lieu": "Rouen, France",
+            "place": "En présentiel",
+            "description": "- Définir le périmètre fonctionnel et rédiger les user stories.\n\n- Concevoir une architecture basée sur des microservices.\n\n- Configurer Kafka pour la communication entre les microservice.\n\n- Miser en place de Keycloak pour l’authentification et la gestion des droits utilisateurs.\n\n- Containeriser chaque service avec Docker.\n\n- Automatiser le déploiement sur OpenShift et Kubernetes.\n\n- Effectuer la revue de code.",
+            "competences": "Méthodologie agile · Communication · Esprit d’équipe · Conception · Planning Poker · MVC · SOLID · Micro-services · PostgreSQL · Scrum · JIRA · GitLab · Docker · CI/CD · SonarQube · Kafka · Keycload"
+        },
         {
             "titre": "Développeur web",
             "entreprise": "LPO France",
@@ -69,7 +79,7 @@
             "duree": "oct 2023 - mai 2024",
             "lieu": "Rouen, France",
             "place": "Hybride",
-            "description": "- Recueillir les besoins auprès des ornithologues et bénévoles de LPO.\n\n- Rédiger le cahier des charges et les spécifications fonctionnelles et techniques.\n\n- Établir l’architecture logicielle.\n\n- Concevoir le cahier de recette et le plan de tests (critères d’acceptation et scénarios de validation).\n\n- Planifier la roadmap projet et le découpage des sprints dans JIRA.\n\n- Développement de l’application en React et Symfony",
+            "description": "- Recueillir les besoins auprès des ornithologues et bénévoles de LPO.\n\n- Rédiger le cahier des charges et les spécifications fonctionnelles et techniques.\n\n- Définir l’architecture logicielle selon le modèle MVC.\n\n- Concevoir le cahier de recette et le plan de tests (critères d’acceptation et scénarios de validation).\n\n- Planifier la roadmap projet et le découpage des sprints dans JIRA.\n\n- Développement de l’application en React et Symfony",
             "competences": "Méthodologie agile · Scrum · Communication · Esprit d’équipe · Conception · MVC · SOLID · MariaDB · UML · React.js · Symfony · Tests fonctionnels · Tests unitaires · Gitlab · JIRA"
         },
         {
@@ -79,7 +89,7 @@
             "duree": "août 2022 - août 2023",
             "lieu": "Paris, France",
             "place": "À distance",
-            "description": "- Maintenir et corriger les anomalies de la plateforme pour assurer sa disponibilité.\n\n- Concevoir et développer de nouvelles fonctionnalités.\n\n- Implémenter des services Back-end via Firebase.\n\n- Gérer les tâches et prioriser le Backlog dans Trello.\n\n- Assurer le versioning et la revue de code via Bitbucket.\n\n",
+            "description": "- Maintenir et corriger les anomalies de la plateforme pour assurer sa disponibilité.\n\n- Concevoir et développer des nouvelles fonctionnalités.\n\n- Implémenter des services Back-end via Firebase.\n\n- Gérer les tâches et prioriser le Backlog dans Trello.\n\n- Assurer le versioning et la revue de code via Bitbucket.\n\n-Fournir le support applicatif aux utilisateurs.",
             "competences": "Méthodologie agile · Scrum · Communication · Esprit d’équipe · Conception · MariaDB · Firebase · Symfony · Angular · Trello · Bitbucket · Git"
         },
         {
