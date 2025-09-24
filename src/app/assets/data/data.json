@@ -142,16 +142,16 @@
     ],
     "certifications": [
         {
-            "titre": "AWS Academy Cloud Foundations",
-            "institution": "AWS Academy",
-            "dateDeDelivrance": "avril 2023",
-            "lienCertificat": "https://www.credly.com/badges/91bd2143-59bc-4447-bb1b-b606ba9c9b5e"
-        },
-        {
             "titre": "MOOC de l'ANSSI - Initiation à la cybersécurité",
             "institution": "ANSSI - Agence nationale de la sécurité des systèmes d'information",
             "dateDeDelivrance": "avril 2025",
             "lienCertificat": "../../assets/files/attestation MOOC ANSSI.pdf"
+        },
+        {
+            "titre": "AWS Academy Cloud Foundations",
+            "institution": "AWS Academy",
+            "dateDeDelivrance": "avril 2023",
+            "lienCertificat": "https://www.credly.com/badges/91bd2143-59bc-4447-bb1b-b606ba9c9b5e"
         }
     ],
     "projets": [
