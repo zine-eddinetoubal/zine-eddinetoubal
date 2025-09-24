@@ -47,6 +47,6 @@ jobs:
         with:
           server: ftp.cluster100.hosting.ovh.net
           username: zineedp
-          password: Zineddine77
+          password: Zineddine77Tbl
           local-dir: dist/zine-eddinetoubal/browser/
           server-dir: /www/
