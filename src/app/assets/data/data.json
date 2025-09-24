@@ -126,7 +126,7 @@
     "formations": [
         {
             "universite": "Université de Rouen Normandie",
-            "diplome": "Master Génie de l'Informatique Logicielle",
+            "diplome": "Master Génie de l'Informatique Logicielle - avec mention",
             "periode": "sept 2023 - sept 2025"
         },
         {
@@ -136,7 +136,7 @@
         },
         {
             "universite": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
-            "diplome": "Licence en Système informatiques",
+            "diplome": "Licence en Système informatiques - avec mention",
             "periode": "sept 2019 - juin 2022"
         }
     ],
