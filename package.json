@@ -24,7 +24,7 @@
     "@angular/platform-browser-dynamic": "^19.1.0",
     "@angular/platform-server": "^19.1.0",
     "@angular/router": "^19.2.7",
-    "@angular/ssr": "^19.1.8",
+    "@angular/ssr": "^19.2.18",
     "@typescript-eslint/types": "^8.42.0",
     "@typescript-eslint/utils": "^8.42.0",
     "eslint": "^9.21.0",
