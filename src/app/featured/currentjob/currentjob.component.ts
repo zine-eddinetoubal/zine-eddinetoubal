@@ -3,6 +3,7 @@ import { CurrentJob } from '../../core/models/currentJob.model';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Config } from '../../core/config/config';
+import { DataPortfolio } from '../../core/models/dataPortfolio.model';
 
 @Component({
   selector: 'app-currentjob',
@@ -15,12 +16,12 @@ export class CurrentJobComponent {
 
   constructor(private http: HttpClient) {
     this.getCurrentJob().subscribe(data => {
-      this.currentJob = data.currentJob;
+      this.currentJob = data.dataPortfolio.currentJob;
     });
   }
 
-  getCurrentJob(): Observable<{ currentJob: CurrentJob }> {
+  getCurrentJob(): Observable<{ dataPortfolio: DataPortfolio }> {
     const dataUrl = Config.dataUrl;
-    return this.http.get<{ currentJob: CurrentJob }>(dataUrl);
+    return this.http.get<{ dataPortfolio: DataPortfolio }>(dataUrl);
   }
 }

@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
 import { Config } from '../../../core/config/config';
 import { Router } from '@angular/router';
+import { Constants } from '../../../core/models/constants.model';
 
 @Component({
   selector: 'app-footer',
@@ -16,13 +17,13 @@ export class FooterComponent {
 
   constructor(private http: HttpClient, private router: Router) {
     this.getFooter().subscribe(data => {
-      this.footer = data.footer;
+      this.footer = data.constants.footer;
     });
   }
 
-  getFooter(): Observable<{ footer: Footer }> {
-    const dataUrl = Config.constantsUrl;
-    return this.http.get<{ footer: Footer }>(dataUrl);
+  getFooter(): Observable<{ constants: Constants }> {
+    const dataUrl = Config.dataUrl;
+    return this.http.get<{ constants: Constants }>(dataUrl);
   }
 
   navigateToMentionsLegales() {
