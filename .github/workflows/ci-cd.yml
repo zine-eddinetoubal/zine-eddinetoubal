@@ -45,8 +45,8 @@ jobs:
         if: github.ref == 'refs/heads/master'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp.cluster100.hosting.ovh.net
-          username: zineedp
-          password: Zineddine77Tbl
+          server: ftp.cluster121.hosting.ovh.net
+          username: zineeds
+          password: ZIno133199513031995Tbl
           local-dir: dist/zine-eddinetoubal/browser/
           server-dir: /www/
