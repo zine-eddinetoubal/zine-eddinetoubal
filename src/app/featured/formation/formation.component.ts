@@ -5,6 +5,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
 import { Config } from '../../core/config/config';
 import { CommonModule } from '@angular/common';
+import { DataPortfolio } from '../../core/models/dataPortfolio.model';
 
 @Component({
   selector: 'app-formation',
@@ -21,19 +22,19 @@ export class FormationComponent {
 
   ngOnInit(): void {
     this.getFormations().subscribe(data => {
-      this.formations = data.formations;
+      this.formations = data.dataPortfolio.formations ?? [];
     });
 
     this.getCertifications().subscribe(data => {
-      this.certifications = data.certifications;
+      this.certifications = data.dataPortfolio.certifications ?? [];
     });
   }
 
-  getFormations(): Observable<{ formations: Formation[] }> {
-    return this.http.get<{ formations: Formation[] }>(this.dataUrl);
+  getFormations(): Observable<{ dataPortfolio: DataPortfolio }> {
+    return this.http.get<{ dataPortfolio: DataPortfolio }>(this.dataUrl);
   }
 
-  getCertifications(): Observable<{ certifications: Certification[] }> {
-    return this.http.get<{ certifications: Certification[] }>(this.dataUrl);
+  getCertifications(): Observable<{ dataPortfolio: DataPortfolio }> {
+    return this.http.get<{ dataPortfolio: DataPortfolio }>(this.dataUrl);
   }
 }

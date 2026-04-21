@@ -1,243 +1,263 @@
-{
-    "currentJob": {
-        "titreSection": "Actuellement",
-        "titre": "Ingénieur études et développement",
-        "chez": "chez",
-        "entreprise": "SQLI",
-        "siteEntreprise": "https://www.sqli.com/fr-fr"
-    },
-    "competences": {
-        "frontend": {
-            "Angular": 70,
-            "React": 70
+{   
+    "constants": {
+        "header": {
+            "formation": "Formation",
+            "experiences": "Expériences",
+            "contact": "Contact"
         },
-        "backend": {
-            "Java / J2ee / Spring": 70,
-            "C# (ASP.NET Core)": 70,
-            "Php / Symfony": 60
+        "btn": {
+            "connaissance": "Faisons connaissance"
         },
-        "tools": {
-            "MySql/ Sql / PostgreSQL": 70,
-            "Git / Github / Gitlab / Azure DevOps": 70,
-            "Jira / Trello / Youtrack": 70,
-            "Scrum": 70,
-            "SonarQube / Kafka / Kubernetes": 60,
-            "Docker / Linux": 50
+        "profil": {
+            "titre": "À Propos de Moi",
+            "aboutMe": "🎓 Zine-Eddine TOUBAL. J'occupe désormais le poste d'Ingénieur d'étude et développement FullStack chez SQLI, où j'interviens sur le développement d'applications full-stack, la conception, l'intégration continue et les déploiements.\n\n💻 Titulaire d'un Master 2 en Génie de l'Informatique Logicielle (Université de Rouen Normandie) et fort d'expériences en alternance et en stage, je maîtrise l'ensemble du cycle de vie logiciel : analyse des besoins, développement, tests, CI/CD, conteneurisation et mise en production. Cette polyvalence me permet de m'adapter rapidement aux environnements techniques exigeants et aux projets d'envergure.\n\n🚀 Curieux, rigoureux et orienté résultats, j'aime relever des défis techniques, collaborer au sein d'équipes pluridisciplinaires et améliorer continuellement la qualité des solutions. Je suis mobile sur l'ensemble du territoire national et ouvert aux échanges professionnels ou collaborations ponctuelles.",
+            "aboutMeShort": "Toujours en quête d'apprentissage, j'aime relever des défis, collaborer sur des projets innovants et partager mes connaissances."
         },
-        "architecture_design": {
-            "Clean Architecture": 70,
-            "MVC": 70,
-            "Principes SOLIDES": 70,
-            "Patron de conception": 60
+        "footer": {
+            "titre": "Copyright © 2026 - Zine-Eddine TOUBAL"
         }
-    },
-    "experiences": [
-        {
-            "titre": "Ingénieur concepteur Développeur FullStack",
+    }, 
+    "dataPortfolio": {
+        "currentJob": {
+            "titreSection": "Actuellement",
+            "titre": "Ingénieur études et développement",
+            "chez": "chez",
             "entreprise": "SQLI",
-            "type": "CDI",
-            "duree": "Avril 2026 - Présent",
-            "lieu": "Rouen, France",
-            "place": "Hybride"
+            "siteEntreprise": "https://www.sqli.com/fr-fr"
         },
-        {
-            "titre": "Ingénieur d’études et de développement",
-            "entreprise": "Artelia Digital Solutions",
-            "type": "Contrat en alternance",
-            "duree": "Sept 2024 - Sept 2025",
-            "lieu": "Le Havre, France",
-            "place": "Hybride",
-            "description": "-  Analyser les besoins clients et rédiger les spécifications techniques et fonctionnelles.\n\n-  Concevoir l’architecture logicielle selon la Clean Architecture et choisir les patterns.\n\n- Développer en Full-Stack avec en Front-End ReactJS et Back-End en ASP .NET, PHP.\n\n- Rédiger des tests unitaires, vérifier la couverture de tests et réaliser des revues de code pour assurer la qualité logicielle.\n\n- Mettre en place des pipelines CI/CD Azure DevOps.\n\n- Orchestrer le déploiement des applications et assurer la mise en production ainsi que la phase de recette.\n\n- Gérer le support applicatif et la maintenance : traitement des incidents et déploiement des correctifs (Hotfix).",
-            "competences": "· Méthodologies agiles · Architecture MVC · SOLID · Clean Architecture · Docker · CI/CD · Azure DevOps · Scrum · JIRA · GitLab · Linux · SonarQube · MariaDB · SQL Server · PostgreSQL · React.js · ASP.NET Core · PHP · Tests unitaires"
-        },
-        {
-            "titre": "Scrum Master & Développeur DevOps",
-            "entreprise": "Université de Rouen Normandie - Projet annuel Master 2",
-            "type": "Stage",
-            "duree": "Octobre 2024 - Mars 2025",
-            "lieu": "Rouen, France",
-            "place": "En présentiel",
-            "description": "- Animer les cérémonies Scrum : Daily, Sprint Planning, Review, Rétrospective.\n\n- Gérer et prioriser le Backlog dans JIRA.\n\n- Assister les Product Owners dans la rédaction et l’affinage des user stories.\n\n- Assister les équipes dans les estimations des tâches et les user stories.\n\n- Mettre en place un workflow Git.\n\n- Configurer Gitlab et créer des Git Hooks pour automatiser les conventions de commits.\n\n- Mettre en place de SonarQube pour l’analyse continue de la qualité de code.\n\n- Assister les développeurs DevOps dans la mise en place de la pipeline CI/CD et la configuration Kafka.",
-            "competences": "Méthodologie agile · Youtrack · Planning Poker · MVC · SOLID · Micro-services · PGVector · PostgreSQL · MySQL · Scrum · JIRA · GitLab · Docker · CI/CD · SonarQube · Kafka · Keycload"
-        },
-        {
-            "titre": "Développeur concepteur",
-            "entreprise": "EDF Renouvelables",
-            "type": "Stage",
-            "duree": "Mai 2024 - Août 2024",
-            "lieu": "Nanterre, Île-de-France, France",
-            "place": "En présentiel",
-            "description": "- Recueillir et formaliser les besoins métier.\n\n- Rédiger les user stories et cas d’usage.\n\n- Elaborer des maquettes fonctionnelles et des diagrammes UML.\n\n- Documenter les spécifications techniques et fonctionnelles.\n\n- Développer deux applications Power Apps.\n\n- Automatiser les workflows avec Power Automate.",
-            "competences": "Méthodologie agile · Communication · Esprit d’équipe · Conception · MVC · SOLID · Firebase · MariaDB · SQL Server · PostgreSQL · Power Apps · Power Automate · Microsoft 365 · Linux · PowerShell · SharePoint · Scrum · JIRA"
-        },
-         {
-            "titre": "Conception d'une architecture microservices",
-            "entreprise": "Université de Rouen Normandie - Projet Master 1",
-            "type": "Stage",
-            "duree": "Février 2024 - Mai 2024",
-            "lieu": "Rouen, France",
-            "place": "En présentiel",
-            "description": "- Définir le périmètre fonctionnel et rédiger les user stories.\n\n- Concevoir une architecture basée sur des microservices.\n\n- Configurer Kafka pour la communication entre les microservice.\n\n- Miser en place de Keycloak pour l’authentification et la gestion des droits utilisateurs.\n\n- Containeriser chaque service avec Docker.\n\n- Automatiser le déploiement sur OpenShift et Kubernetes.\n\n- Effectuer la revue de code.",
-            "competences": "Méthodologie agile · Communication · Esprit d’équipe · Conception · Planning Poker · MVC · SOLID · Micro-services · PostgreSQL · Scrum · JIRA · GitLab · Docker · CI/CD · SonarQube · Kafka · Keycload"
-        },
-        {
-            "titre": "Développeur web",
-            "entreprise": "LPO France",
-            "type": "",
-            "duree": "Oct 2023 - Mai 2024",
-            "lieu": "Rouen, France",
-            "place": "Hybride",
-            "description": "- Recueillir les besoins auprès des ornithologues et bénévoles de LPO.\n\n- Rédiger le cahier des charges et les spécifications fonctionnelles et techniques.\n\n- Définir l’architecture logicielle selon le modèle MVC.\n\n- Concevoir le cahier de recette et le plan de tests (critères d’acceptation et scénarios de validation).\n\n- Planifier la roadmap projet et le découpage des sprints dans JIRA.\n\n- Développement de l’application en React et Symfony",
-            "competences": "Méthodologie agile · Scrum · Communication · Esprit d’équipe · Conception · MVC · SOLID · MariaDB · UML · React.js · Symfony · Tests fonctionnels · Tests unitaires · Gitlab · JIRA"
-        },
-        {
-            "titre": "Développeur web",
-            "entreprise": "HACHITECH",
-            "type": "CDD",
-            "duree": "Août 2022 - Août 2023",
-            "lieu": "Paris, France",
-            "place": "À distance",
-            "description": "- Maintenir et corriger les anomalies de la plateforme pour assurer sa disponibilité.\n\n- Concevoir et développer des nouvelles fonctionnalités.\n\n- Implémenter des services Back-end via Firebase.\n\n- Gérer les tâches et prioriser le Backlog dans Trello.\n\n- Assurer le versioning et la revue de code via Bitbucket.\n\n-Fournir le support applicatif aux utilisateurs.",
-            "competences": "Méthodologie agile · Scrum · Communication · Esprit d’équipe · Conception · MariaDB · Firebase · Symfony · Angular · Trello · Bitbucket · Git"
-        },
-        {
-            "titre": "Freelance",
-            "entreprise": "",
-            "type": "Freelance",
-            "duree": "Sept 2021 - Juil 2023",
-            "lieu": "Oran, Algérie",
-            "place": "À distance",
-            "description": "- Conception et développement d'applications Android et web. \n\n -Utilisation des technologies (Flutter, Firebase, Git, PHP, JS, JAVA, HTML, CSS et MySQL.",
-            "competences": "Flutter · PHP · Mobile Application Development · Android Development · Firebase · Angular · MySQL · Application Programming Interfaces (API) · Ionic Framework · Git · GitHub"
-        },
-        {
-            "titre": "Volontaire support IT & réseau · Jeux Méditerranéens 2022",
-            "entreprise": "Comité d'Organisation des Jeux Méditerranéens d'Oran 2022",
-            "type": "",
-            "duree": "Juin 2022 - Juil 2022",
-            "lieu": "Oran, Algérie",
-            "place": "En présentiel",
-            "description": "- Intervention lors de pannes matérielles en diagnostiquant la source du problème et en appliquant le protocole approprié.\n\n- Affecter auprès des ingénieurs de l'entreprise MicroPlus Informatica pour le système de résultats sur site ON VENUE RESULT SYSTEM (OVRS).",
-            "competences": "Travail d'équipe · Réseaux informatiques · Réseau · Matériel informatique · Serveurs"
-        },
-        {
-            "titre": "Formateur",
-            "entreprise": "Institut français d'Algérie à Oran",
-            "type": "",
-            "duree": "Déc 2021 - Févr 2022",
-            "lieu": "Oran, Algérie",
-            "place": "En présentiel",
-            "description": "- Formateur en développement d'applications mobiles sur Android avec Flutter et Firebase",
-            "competences": ""
-        }
-    ],
-    "formations": [
-        {
-            "universite": "Université de Rouen Normandie",
-            "diplome": "Master Génie de l'Informatique Logicielle - avec mention",
-            "periode": "Sept 2023 - Sept 2025"
-        },
-        {
-            "universite": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
-            "diplome": "Master 1 Systèmes d'Information et Données",
-            "periode": "Sept 2022 - Juin 2023"
-        },
-        {
-            "universite": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
-            "diplome": "Licence en Système informatiques - avec mention",
-            "periode": "Sept 2019 - Juin 2022"
-        }
-    ],
-    "certifications": [
-        {
-            "titre": "IBM Applied DevOps Engineering Certificat Professionnel",
-            "institution": "IBM - Coursera",
-            "dateDeDelivrance": "Janvier 2026",
-            "lienCertificat": ""
-        },
-        {
-            "titre": "MOOC de l'ANSSI - Initiation à la cybersécurité",
-            "institution": "ANSSI - Agence nationale de la sécurité des systèmes d'information",
-            "dateDeDelivrance": "Avril 2025",
-            "lienCertificat": "../../assets/files/attestation MOOC ANSSI.pdf"
-        },
-        {
-            "titre": "AWS Academy Cloud Foundations",
-            "institution": "AWS Academy",
-            "dateDeDelivrance": "Avril 2023",
-            "lienCertificat": "https://www.credly.com/badges/91bd2143-59bc-4447-bb1b-b606ba9c9b5e"
-        }
-    ],
-    "projets": [
-        {
-            "titre": "Développement application de rencontre",
-            "dates": {
-                "debut": "Févr. 2024",
-                "fin": "Mai 2024"
+        "competences": {
+            "frontend": {
+                "Angular": 70,
+                "React": 70
             },
-            "institution": "Université de Rouen",
-            "description": "Transformation d'une architecture monolithique vers une architecture microservices, avec un accent particulier sur l'intérêt musical pour connecter les utilisateurs. Ce projet collaboratif rassemble un groupe de cinq collaborateurs déterminés à relever ce défi. Pour garantir une implémentation progressive et minutieuse, nous avons décidé d'utiliser des technologies de pointe telles que Docker, Kafka, Kubernetes et Keycloak.",
-            "competences": "Kubernetes - Kafka - Git - Docker - Langage de modélisation unifié (UML) - Keycloak - JIRA - Gitlab"
-        },
-        {
-            "titre": "Projet Annuel en Collaboration avec LPO Normandie - Application Web",
-            "dates": {
-                "debut": "Oct. 2023",
-                "fin": "Mai 2024"
+            "backend": {
+                "Java / J2ee / Spring": 70,
+                "C# (ASP.NET Core)": 70,
+                "Php / Symfony": 60
             },
-            "institution": "Université de Rouen",
-            "description": "Mise en place d'une application web pour protéger la biodiversité en Normandie, en collaboration avec LPO Normandie. Travail en équipe de sept personnes pour implémenter des fonctionnalités comme la gestion des rôles des utilisateurs et l'ajout des fiches d'observation des animaux en Normandie par les adhérents de l'association. Gestion de la validation des fiches et de l'analyse des fiches. Déploiement et l'accent sur la qualité du code.",
-            "competences": "Scrum - Conception base de données - Git - Langage de modélisation unifié (UML) - Postman API - Doctrine (PHP) - Symfony - Agile Methodologies - JIRA - Conception web - React.js - Gitlab - Statistiques"
-        },
-        {
-            "titre": "Terminologio – Une plateforme de terminologies illustrées",
-            "dates": {
-                "debut": "Nov. 2023",
-                "fin": "Déc. 2023"
+            "tools": {
+                "MySql/ Sql / PostgreSQL": 70,
+                "Git / Github / Gitlab / Azure DevOps": 70,
+                "Jira / Trello / Youtrack": 70,
+                "Scrum": 70,
+                "SonarQube / Kafka / Kubernetes": 60,
+                "Docker / Linux": 50
             },
-            "institution": "Université de Rouen",
-            "description": "Mise en place d'une application visant à cartographier le vocabulaire terminologique associé à des concepts, en particulier des matériaux, dans des domaines spécifiques. La soumission d'un concept peut être effectuée par les utilisateurs en téléchargeant une image et en identifiant les composants avec leurs emplacements. Dans la langue naturelle de l'utilisateur, chaque composant est lié à sa terminologie. Tous les utilisateurs de la plateforme peuvent accéder aux résultats sauvegardés. Les utilisateurs ont la faculté de proposer des traductions dans différentes langues sur la plateforme, ce qui facilite la collaboration multilingue.",
-            "competences": "PhpMyAdmin - PHP - Architecture MVC - HTML5 - CSS - JavaScript - jQuery"
+            "architecture_design": {
+                "Clean Architecture": 70,
+                "MVC": 70,
+                "Principes SOLIDES": 70,
+                "Patron de conception": 60
+            }
         },
-        {
-            "titre": "Occurrence de mots dans plusieurs fichiers - Algorithme d'Aho-Corasick",
-            "dates": {
-                "debut": "Nov. 2023",
-                "fin": "Nov. 2023"
+        "experiences": [
+            {
+                "titre": "Ingénieur concepteur Développeur FullStack",
+                "entreprise": "SQLI",
+                "type": "CDI",
+                "duree": "Avril 2026 - Présent",
+                "lieu": "Rouen, France",
+                "place": "Hybride"
             },
-            "institution": "Université de Rouen",
-            "description": "Exploration de l'efficacité de l'algorithme d'Aho-Corasick pour la recherche de motifs dans un texte, implémenté en langage C. Cet algorithme s'appuie sur une structure de données essentielle : un arbre de préfixes, qui stocke efficacement un ensemble de chaînes de caractères facilitant leur recherche. Deux méthodes ont été utilisées pour élaborer cet arbre : l'emploi d'une table de hachage et d'une matrice de transition. L'implémentation avec une table de hachage est plus efficace que celle avec une matrice de transition, démontrant une supériorité en termes de temps de recherche.",
-            "competences": "Bash - Python - C"
-        },
-        {
-            "titre": "Développement application mobile - KW Express food delivery",
-            "dates": {
-                "debut": "Mai 2022",
-                "fin": "Juin 2022"
+            {
+                "titre": "Ingénieur d’études et de développement",
+                "entreprise": "Artelia Digital Solutions",
+                "type": "Contrat en alternance",
+                "duree": "Sept 2024 - Sept 2025",
+                "lieu": "Le Havre, France",
+                "place": "Hybride",
+                "description": "-  Analyser les besoins clients et rédiger les spécifications techniques et fonctionnelles.\n\n-  Concevoir l’architecture logicielle selon la Clean Architecture et choisir les patterns.\n\n- Développer en Full-Stack avec en Front-End ReactJS et Back-End en ASP .NET, PHP.\n\n- Rédiger des tests unitaires, vérifier la couverture de tests et réaliser des revues de code pour assurer la qualité logicielle.\n\n- Mettre en place des pipelines CI/CD Azure DevOps.\n\n- Orchestrer le déploiement des applications et assurer la mise en production ainsi que la phase de recette.\n\n- Gérer le support applicatif et la maintenance : traitement des incidents et déploiement des correctifs (Hotfix).",
+                "competences": "· Méthodologies agiles · Architecture MVC · SOLID · Clean Architecture · Docker · CI/CD · Azure DevOps · Scrum · JIRA · GitLab · Linux · SonarQube · MariaDB · SQL Server · PostgreSQL · React.js · ASP.NET Core · PHP · Tests unitaires"
             },
-            "institution": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
-            "description": "Conception d'une application mobile pour le projet PFE de licence et un projet freelance. Travail individuel de 25 jours pour implémenter des fonctionnalités telles que la recherche de restaurants, la commande en ligne, le suivi des commandes en temps réel, les notifications et l'historique des commandes.",
-            "competences": "Trello - Firebase - Conception d’applications mobiles - Flutter - Langage de modélisation unifié (UML)"
-        },
-        {
-            "titre": "Développement application mobile - Randolina",
-            "dates": {
-                "debut": "Sept. 2021",
-                "fin": "Janv. 2022"
+            {
+                "titre": "Scrum Master & Développeur DevOps",
+                "entreprise": "Université de Rouen Normandie - Projet annuel Master 2",
+                "type": "Stage",
+                "duree": "Octobre 2024 - Mars 2025",
+                "lieu": "Rouen, France",
+                "place": "En présentiel",
+                "description": "- Animer les cérémonies Scrum : Daily, Sprint Planning, Review, Rétrospective.\n\n- Gérer et prioriser le Backlog dans JIRA.\n\n- Assister les Product Owners dans la rédaction et l’affinage des user stories.\n\n- Assister les équipes dans les estimations des tâches et les user stories.\n\n- Mettre en place un workflow Git.\n\n- Configurer Gitlab et créer des Git Hooks pour automatiser les conventions de commits.\n\n- Mettre en place de SonarQube pour l’analyse continue de la qualité de code.\n\n- Assister les développeurs DevOps dans la mise en place de la pipeline CI/CD et la configuration Kafka.",
+                "competences": "Méthodologie agile · Youtrack · Planning Poker · MVC · SOLID · Micro-services · PGVector · PostgreSQL · MySQL · Scrum · JIRA · GitLab · Docker · CI/CD · SonarQube · Kafka · Keycload"
             },
-            "institution": "Indépendant",
-            "description": "Randolina est une application révolutionnaire conçue pour répondre aux exigences des amateurs de randonnées. Collaboration de deux personnes pour mettre en place des fonctionnalités telles que des messages, des stories de 24 heures, des vidéos/photos, une marketplace et des notifications en temps réel.",
-            "competences": "Trello - Firebase - Conception mobile - Flutter - Git - Conception d’interfaces mobiles - GitHub"
-        },
-        {
-            "titre": "Développement d'un langage de programmation - Langage Snail",
-            "dates": {
-                "debut": "Oct. 2021",
-                "fin": "Janv. 2022"
+            {
+                "titre": "Développeur concepteur",
+                "entreprise": "EDF Renouvelables",
+                "type": "Stage",
+                "duree": "Mai 2024 - Août 2024",
+                "lieu": "Nanterre, Île-de-France, France",
+                "place": "En présentiel",
+                "description": "- Recueillir et formaliser les besoins métier.\n\n- Rédiger les user stories et cas d’usage.\n\n- Elaborer des maquettes fonctionnelles et des diagrammes UML.\n\n- Documenter les spécifications techniques et fonctionnelles.\n\n- Développer deux applications Power Apps.\n\n- Automatiser les workflows avec Power Automate.",
+                "competences": "Méthodologie agile · Communication · Esprit d’équipe · Conception · MVC · SOLID · Firebase · MariaDB · SQL Server · PostgreSQL · Power Apps · Power Automate · Microsoft 365 · Linux · PowerShell · SharePoint · Scrum · JIRA"
             },
-            "institution": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
-            "description": "Développement d'un langage de programmation appelé Snail, réalisé en Java. Le projet a impliqué la conception de la grammaire du langage, la définition de sa sémantique, de son lexique et de sa syntaxe.",
-            "competences": "Trello - Java - Git - GitHub"
-        }
-    ]
+            {
+                "titre": "Conception d'une architecture microservices",
+                "entreprise": "Université de Rouen Normandie - Projet Master 1",
+                "type": "Stage",
+                "duree": "Février 2024 - Mai 2024",
+                "lieu": "Rouen, France",
+                "place": "En présentiel",
+                "description": "- Définir le périmètre fonctionnel et rédiger les user stories.\n\n- Concevoir une architecture basée sur des microservices.\n\n- Configurer Kafka pour la communication entre les microservice.\n\n- Miser en place de Keycloak pour l’authentification et la gestion des droits utilisateurs.\n\n- Containeriser chaque service avec Docker.\n\n- Automatiser le déploiement sur OpenShift et Kubernetes.\n\n- Effectuer la revue de code.",
+                "competences": "Méthodologie agile · Communication · Esprit d’équipe · Conception · Planning Poker · MVC · SOLID · Micro-services · PostgreSQL · Scrum · JIRA · GitLab · Docker · CI/CD · SonarQube · Kafka · Keycload"
+            },
+            {
+                "titre": "Développeur web",
+                "entreprise": "LPO France",
+                "type": "",
+                "duree": "Oct 2023 - Mai 2024",
+                "lieu": "Rouen, France",
+                "place": "Hybride",
+                "description": "- Recueillir les besoins auprès des ornithologues et bénévoles de LPO.\n\n- Rédiger le cahier des charges et les spécifications fonctionnelles et techniques.\n\n- Définir l’architecture logicielle selon le modèle MVC.\n\n- Concevoir le cahier de recette et le plan de tests (critères d’acceptation et scénarios de validation).\n\n- Planifier la roadmap projet et le découpage des sprints dans JIRA.\n\n- Développement de l’application en React et Symfony",
+                "competences": "Méthodologie agile · Scrum · Communication · Esprit d’équipe · Conception · MVC · SOLID · MariaDB · UML · React.js · Symfony · Tests fonctionnels · Tests unitaires · Gitlab · JIRA"
+            },
+            {
+                "titre": "Développeur web",
+                "entreprise": "HACHITECH",
+                "type": "CDD",
+                "duree": "Août 2022 - Août 2023",
+                "lieu": "Paris, France",
+                "place": "À distance",
+                "description": "- Maintenir et corriger les anomalies de la plateforme pour assurer sa disponibilité.\n\n- Concevoir et développer des nouvelles fonctionnalités.\n\n- Implémenter des services Back-end via Firebase.\n\n- Gérer les tâches et prioriser le Backlog dans Trello.\n\n- Assurer le versioning et la revue de code via Bitbucket.\n\n-Fournir le support applicatif aux utilisateurs.",
+                "competences": "Méthodologie agile · Scrum · Communication · Esprit d’équipe · Conception · MariaDB · Firebase · Symfony · Angular · Trello · Bitbucket · Git"
+            },
+            {
+                "titre": "Freelance",
+                "entreprise": "",
+                "type": "Freelance",
+                "duree": "Sept 2021 - Juil 2023",
+                "lieu": "Oran, Algérie",
+                "place": "À distance",
+                "description": "- Conception et développement d'applications Android et web. \n\n -Utilisation des technologies (Flutter, Firebase, Git, PHP, JS, JAVA, HTML, CSS et MySQL.",
+                "competences": "Flutter · PHP · Mobile Application Development · Android Development · Firebase · Angular · MySQL · Application Programming Interfaces (API) · Ionic Framework · Git · GitHub"
+            },
+            {
+                "titre": "Volontaire support IT & réseau · Jeux Méditerranéens 2022",
+                "entreprise": "Comité d'Organisation des Jeux Méditerranéens d'Oran 2022",
+                "type": "",
+                "duree": "Juin 2022 - Juil 2022",
+                "lieu": "Oran, Algérie",
+                "place": "En présentiel",
+                "description": "- Intervention lors de pannes matérielles en diagnostiquant la source du problème et en appliquant le protocole approprié.\n\n- Affecter auprès des ingénieurs de l'entreprise MicroPlus Informatica pour le système de résultats sur site ON VENUE RESULT SYSTEM (OVRS).",
+                "competences": "Travail d'équipe · Réseaux informatiques · Réseau · Matériel informatique · Serveurs"
+            },
+            {
+                "titre": "Formateur",
+                "entreprise": "Institut français d'Algérie à Oran",
+                "type": "",
+                "duree": "Déc 2021 - Févr 2022",
+                "lieu": "Oran, Algérie",
+                "place": "En présentiel",
+                "description": "- Formateur en développement d'applications mobiles sur Android avec Flutter et Firebase",
+                "competences": ""
+            }
+        ],
+        "formations": [
+            {
+                "universite": "Université de Rouen Normandie",
+                "diplome": "Master Génie de l'Informatique Logicielle - avec mention",
+                "periode": "Sept 2023 - Sept 2025"
+            },
+            {
+                "universite": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
+                "diplome": "Master 1 Systèmes d'Information et Données",
+                "periode": "Sept 2022 - Juin 2023"
+            },
+            {
+                "universite": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
+                "diplome": "Licence en Système informatiques - avec mention",
+                "periode": "Sept 2019 - Juin 2022"
+            }
+        ],
+        "certifications": [
+            {
+                "titre": "IBM Applied DevOps Engineering Certificat Professionnel",
+                "institution": "IBM - Coursera",
+                "dateDeDelivrance": "Janvier 2026",
+                "lienCertificat": ""
+            },
+            {
+                "titre": "MOOC de l'ANSSI - Initiation à la cybersécurité",
+                "institution": "ANSSI - Agence nationale de la sécurité des systèmes d'information",
+                "dateDeDelivrance": "Avril 2025",
+                "lienCertificat": "../../assets/files/attestation MOOC ANSSI.pdf"
+            },
+            {
+                "titre": "AWS Academy Cloud Foundations",
+                "institution": "AWS Academy",
+                "dateDeDelivrance": "Avril 2023",
+                "lienCertificat": "https://www.credly.com/badges/91bd2143-59bc-4447-bb1b-b606ba9c9b5e"
+            }
+        ],
+        "projets": [
+            {
+                "titre": "Développement application de rencontre",
+                "dates": {
+                    "debut": "Févr. 2024",
+                    "fin": "Mai 2024"
+                },
+                "institution": "Université de Rouen",
+                "description": "Transformation d'une architecture monolithique vers une architecture microservices, avec un accent particulier sur l'intérêt musical pour connecter les utilisateurs. Ce projet collaboratif rassemble un groupe de cinq collaborateurs déterminés à relever ce défi. Pour garantir une implémentation progressive et minutieuse, nous avons décidé d'utiliser des technologies de pointe telles que Docker, Kafka, Kubernetes et Keycloak.",
+                "competences": "Kubernetes - Kafka - Git - Docker - Langage de modélisation unifié (UML) - Keycloak - JIRA - Gitlab"
+            },
+            {
+                "titre": "Projet Annuel en Collaboration avec LPO Normandie - Application Web",
+                "dates": {
+                    "debut": "Oct. 2023",
+                    "fin": "Mai 2024"
+                },
+                "institution": "Université de Rouen",
+                "description": "Mise en place d'une application web pour protéger la biodiversité en Normandie, en collaboration avec LPO Normandie. Travail en équipe de sept personnes pour implémenter des fonctionnalités comme la gestion des rôles des utilisateurs et l'ajout des fiches d'observation des animaux en Normandie par les adhérents de l'association. Gestion de la validation des fiches et de l'analyse des fiches. Déploiement et l'accent sur la qualité du code.",
+                "competences": "Scrum - Conception base de données - Git - Langage de modélisation unifié (UML) - Postman API - Doctrine (PHP) - Symfony - Agile Methodologies - JIRA - Conception web - React.js - Gitlab - Statistiques"
+            },
+            {
+                "titre": "Terminologio – Une plateforme de terminologies illustrées",
+                "dates": {
+                    "debut": "Nov. 2023",
+                    "fin": "Déc. 2023"
+                },
+                "institution": "Université de Rouen",
+                "description": "Mise en place d'une application visant à cartographier le vocabulaire terminologique associé à des concepts, en particulier des matériaux, dans des domaines spécifiques. La soumission d'un concept peut être effectuée par les utilisateurs en téléchargeant une image et en identifiant les composants avec leurs emplacements. Dans la langue naturelle de l'utilisateur, chaque composant est lié à sa terminologie. Tous les utilisateurs de la plateforme peuvent accéder aux résultats sauvegardés. Les utilisateurs ont la faculté de proposer des traductions dans différentes langues sur la plateforme, ce qui facilite la collaboration multilingue.",
+                "competences": "PhpMyAdmin - PHP - Architecture MVC - HTML5 - CSS - JavaScript - jQuery"
+            },
+            {
+                "titre": "Occurrence de mots dans plusieurs fichiers - Algorithme d'Aho-Corasick",
+                "dates": {
+                    "debut": "Nov. 2023",
+                    "fin": "Nov. 2023"
+                },
+                "institution": "Université de Rouen",
+                "description": "Exploration de l'efficacité de l'algorithme d'Aho-Corasick pour la recherche de motifs dans un texte, implémenté en langage C. Cet algorithme s'appuie sur une structure de données essentielle : un arbre de préfixes, qui stocke efficacement un ensemble de chaînes de caractères facilitant leur recherche. Deux méthodes ont été utilisées pour élaborer cet arbre : l'emploi d'une table de hachage et d'une matrice de transition. L'implémentation avec une table de hachage est plus efficace que celle avec une matrice de transition, démontrant une supériorité en termes de temps de recherche.",
+                "competences": "Bash - Python - C"
+            },
+            {
+                "titre": "Développement application mobile - KW Express food delivery",
+                "dates": {
+                    "debut": "Mai 2022",
+                    "fin": "Juin 2022"
+                },
+                "institution": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
+                "description": "Conception d'une application mobile pour le projet PFE de licence et un projet freelance. Travail individuel de 25 jours pour implémenter des fonctionnalités telles que la recherche de restaurants, la commande en ligne, le suivi des commandes en temps réel, les notifications et l'historique des commandes.",
+                "competences": "Trello - Firebase - Conception d’applications mobiles - Flutter - Langage de modélisation unifié (UML)"
+            },
+            {
+                "titre": "Développement application mobile - Randolina",
+                "dates": {
+                    "debut": "Sept. 2021",
+                    "fin": "Janv. 2022"
+                },
+                "institution": "Indépendant",
+                "description": "Randolina est une application révolutionnaire conçue pour répondre aux exigences des amateurs de randonnées. Collaboration de deux personnes pour mettre en place des fonctionnalités telles que des messages, des stories de 24 heures, des vidéos/photos, une marketplace et des notifications en temps réel.",
+                "competences": "Trello - Firebase - Conception mobile - Flutter - Git - Conception d’interfaces mobiles - GitHub"
+            },
+            {
+                "titre": "Développement d'un langage de programmation - Langage Snail",
+                "dates": {
+                    "debut": "Oct. 2021",
+                    "fin": "Janv. 2022"
+                },
+                "institution": "Université des Sciences et de la Technologie d’Oran - Mohamed Boudiaf (USTO-MB)",
+                "description": "Développement d'un langage de programmation appelé Snail, réalisé en Java. Le projet a impliqué la conception de la grammaire du langage, la définition de sa sémantique, de son lexique et de sa syntaxe.",
+                "competences": "Trello - Java - Git - GitHub"
+            }
+        ]
+    }
 }
