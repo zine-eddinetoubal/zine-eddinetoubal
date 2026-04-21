@@ -6,7 +6,7 @@
         <!-- Frontend -->
         <div class="competence-column">
           <h3>Frontend</h3>
-          <div *ngIf="competences?.frontend">
+          <div *ngIf="competences.frontend">
             <div *ngFor="let key of objectKeys(competences!.frontend!)">
               <div class="competence-item">
                 <span class="progess-key">{{ key }}</span>
@@ -22,7 +22,7 @@
         <!-- Backend -->
         <div class="competence-column">
           <h3>Backend</h3>
-          <div *ngIf="competences?.backend">
+          <div *ngIf="competences.backend">
             <div *ngFor="let key of objectKeys(competences!.backend)">
               <div class="competence-item">
                 <span class="progess-key">{{ key }}</span>
@@ -38,7 +38,7 @@
         <!-- Tools -->
         <div class="competence-column">
           <h3>Outils & Méthode agile</h3>
-          <div *ngIf="competences?.tools">
+          <div *ngIf="competences.tools">
             <div *ngFor="let key of objectKeys(competences!.tools)">
               <div class="competence-item">
                 <span class="progess-key">{{ key }}</span>
@@ -54,7 +54,7 @@
          <!-- Architecture & Design -->
         <div class="competence-column">
           <h3>Architecture et conception</h3>
-          <div *ngIf="competences?.architecture_design">
+          <div *ngIf="competences.architecture_design">
             <div *ngFor="let key of objectKeys(competences!.architecture_design)">
               <div class="competence-item">
                 <span class="progess-key">{{ key }}</span>

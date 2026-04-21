@@ -5,7 +5,6 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
 import { Config } from '../../core/config/config';
 import { CommonModule } from '@angular/common';
-import { Data } from '@angular/router';
 import { DataPortfolio } from '../../core/models/dataPortfolio.model';
 
 @Component({
