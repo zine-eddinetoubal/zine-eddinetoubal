@@ -10,6 +10,7 @@ import { Observable } from 'rxjs/internal/Observable';
 import { Config } from '../../core/config/config';
 import { CvComponent } from '../cv/cv.component';
 import { environment } from '../../../environments/environment';
+import { Constants } from '../../core/models/constants.model';
 @Component({
   selector: 'app-home',
   imports: [
@@ -29,7 +30,7 @@ export class HomeComponent implements OnInit {
 
   constructor(private scrollService: ScrollService, private http: HttpClient) {
     this.getBtn().subscribe(data => {
-      this.btn = data.btn;
+      this.btn = data.constants.btn;
     });
     this.name = environment.siteOwner;
   }
@@ -47,8 +48,8 @@ export class HomeComponent implements OnInit {
     }
   }
 
-  getBtn(): Observable<{ btn: Btn }> {
-    const dataUrl = Config.constantsUrl;
-    return this.http.get<{ btn: Btn }>(dataUrl);
+  getBtn(): Observable<{ constants: Constants }> {
+    const dataUrl = Config.dataUrl;
+    return this.http.get<{ constants: Constants }>(dataUrl);
   }
 }
