@@ -9,6 +9,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
 import { Config } from '../../../core/config/config';
 import { Router } from '@angular/router';
+import { Constants } from '../../../core/models/constants.model';
 @Component({
   selector: 'app-header',
   imports: [
@@ -26,7 +27,7 @@ export class HeaderComponent {
 
   constructor(private scrollService: ScrollService, private http: HttpClient, private router: Router) {
     this.getHeader().subscribe(data => {
-      this.header = data.header;
+      this.header = data.constants.header;
     });
   }
 
@@ -50,8 +51,8 @@ export class HeaderComponent {
     this.router.navigate(['/experiences']);
   }
 
-  getHeader(): Observable<{ header: Header }> {
-    const dataUrl = Config.constantsUrl;
-    return this.http.get<{ header: Header }>(dataUrl);
+  getHeader(): Observable<{ constants: Constants }> {
+    const dataUrl = Config.dataUrl;
+    return this.http.get<{ constants: Constants }>(dataUrl);
   }
 }

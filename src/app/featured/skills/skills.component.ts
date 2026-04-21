@@ -4,6 +4,8 @@ import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Skills } from '../../core/models/skills.model';
 import { Config } from '../../core/config/config';
+import { Data } from '@angular/router';
+import { DataPortfolio } from '../../core/models/dataPortfolio.model';
 
 @Component({
   selector: 'app-skills',
@@ -17,13 +19,13 @@ export class SkillsComponent {
 
   constructor(private http: HttpClient) {
     this.getCompetences().subscribe(data => {
-      this.competences = data.competences;
+      this.competences = data.dataPortfolio.competences!;
     });
   }
 
-  getCompetences(): Observable<{ competences: Skills }> {
+  getCompetences(): Observable<{ dataPortfolio: DataPortfolio }> {
     const dataUrl = Config.dataUrl;
-    return this.http.get<{ competences: Skills }>(dataUrl);
+    return this.http.get<{ dataPortfolio: DataPortfolio }>(dataUrl);
   }
 
   objectKeys(obj: Record<string, number>): string[] {

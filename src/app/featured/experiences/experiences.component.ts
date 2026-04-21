@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { Experience, Experiences } from '../../core/models/experiences.model';
+import { Experiences } from '../../core/models/experiences.model';
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Config } from '../../core/config/config';
+import { DataPortfolio } from '../../core/models/dataPortfolio.model';
 
 @Component({
   selector: 'app-experiences',
@@ -13,17 +14,17 @@ import { Config } from '../../core/config/config';
 })
 export class ExperiencesComponent {
 
-  experiences: Experience[] = [];
+  experiences: Experiences[] = [];
 
   constructor(private http: HttpClient) {
     this.getExperiences().subscribe(data => {
-      this.experiences = data.experiences;
+      this.experiences = data.dataPortfolio.experiences ?? [];
     });
   }
 
-  getExperiences(): Observable<Experiences> {
+  getExperiences(): Observable<{ dataPortfolio: DataPortfolio }> {
     const dataUrl = Config.dataUrl;
-    return this.http.get<Experiences>(dataUrl);
+    return this.http.get<{ dataPortfolio: DataPortfolio }>(dataUrl);
   }
 
   transform(value: string): string {

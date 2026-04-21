@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 import { Config } from '../../core/config/config';
 import { CommonModule } from '@angular/common';
 import { LineBreakPipe } from '../../helper/lineBreakPipe';
+import { Constants } from '../../core/models/constants.model';
 
 @Component({
   selector: 'app-profil',
@@ -17,12 +18,12 @@ export class ProfilComponent {
 
   constructor(private http: HttpClient) {
     this.getProfil().subscribe(data => {
-      this.profil = data.profil;
+      this.profil = data.constants.profil;
     });
   }
 
-  getProfil(): Observable<{ profil: Profil }> {
-    const dataUrl = Config.constantsUrl;
-    return this.http.get<{ profil: Profil }>(dataUrl);
+  getProfil(): Observable<{ constants: Constants }> {
+    const dataUrl = Config.dataUrl;
+    return this.http.get<{ constants: Constants }>(dataUrl);
   }
 }

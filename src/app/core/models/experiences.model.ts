@@ -1,4 +1,4 @@
-export interface Experience {
+export interface Experiences {
     titre: string;
     entreprise: string;
     type: string;
@@ -7,8 +7,4 @@ export interface Experience {
     place: string;
     description: string;
     competences: string;
-}
-
-export interface Experiences {
-    experiences: Experience[];
 }
